@@ -18,7 +18,7 @@
   - [Getting Started](#getting-started)
     - [Pre-requisite](#pre-requisite)
     - [Up and Running](#up-and-running)
-    - [Check emails](#check-emails)
+    - [Contact email setup](#contact-email-setup)
   - [Inspirations](#inspirations)
   - [Typeface](#typeface)
   - [License](#license)
@@ -50,30 +50,30 @@ Create an `.env.local` file with the following variables:
 
 ```sh
 NEXT_PUBLIC_SITE_URL=                 # The local / hosted url (i.e. http://localhost:3000)
-
-# https://docs.netlify.com/integrations/email-integration/#required-environment-variables
-NETLIFY_EMAILS_PROVIDER=""            # Netlify email provider (i.e. postmark)
-NETLIFY_EMAILS_PROVIDER_API_KEY=""    # Netlify email provider API Token
 EMAIL_ADDRESS=""                      # The email address to send emails
-
-NETLIFY_EMAILS_DIRECTORY="./functions/mail/templates"
 ```
 
 To start the development server
 
 ```sh
-pnpm dev
+netlify link    # link the netlify repo to get site id
+netlify build   # build the deps
+netlify dev     # run the development server with email functionality
 ```
 
-### Check emails
+### Contact email setup
 
-> 💡 Read more on setup and usage in the [netlify email docs](https://github.com/netlify/netlify-emails-plugin#step-4-previewing-emails-locally)
+> 💡 Read more on setup and usage of [postmark & netlify](https://postmarkapp.com/integrations/netlify) and [env variable config](https://docs.netlify.com/integrations/email-integration/#required-environment-variables).
+
+Set the email directory to in,
+
+```sh
+NETLIFY_EMAILS_DIRECTORY="./functions/mail/templates"
+```
 
 To check the email provider api locally,
 
 ```sh
-netlify link    # link the netlify repo to get site id
-netlify build   # build the deps
 netlify dev     # run on port http://localhost:8888/.netlify/functions/emails
 ```
 
