@@ -6,67 +6,59 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 47.4% 11.2%;
-
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 47.4% 11.2%;
-
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-
     --card: 0 0% 100%;
     --card-foreground: 222.2 47.4% 11.2%;
-
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
+    --secondary: 0 0% 100%;
     --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --accent: 210 40% 96.1%;
+    --accent: 240 5% 96%;
     --accent-foreground: 222.2 47.4% 11.2%;
-
     --destructive: 0 100% 50%;
     --destructive-foreground: 210 40% 98%;
-
     --ring: 215 20.2% 65.1%;
-
     --radius: 0.5rem;
+    --line-opacity: 0.15;
+    --line-color: rgb(0 0 0 / var(--line-opacity));
+    --line-offset: 150px;
+    --line-width: 1px;
+    --line-gap: 5px;
+    --line-fade-stop: 93%;
+    --background-overlay: rgb(1 100 239 / 6.3%);
+    --separator-size: 32px;
+    --input-accent-background: 240 5% 96%;
+    --input-accent-foreground: 222.2 47.4% 11.2%;
   }
 
   .dark {
-    --background: 224 71% 4%;
+    --background: 240 4% 10%;
     --foreground: 213 31% 91%;
-
     --muted: 223 47% 11%;
-    --muted-foreground: 215.4 16.3% 56.9%;
-
-    --accent: 216 34% 17%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 217.14deg 95.45% 91.37% / 19.1%;
     --accent-foreground: 210 40% 98%;
-
-    --popover: 224 71% 4%;
-    --popover-foreground: 215 20.2% 65.1%;
-
-    --border: 216 34% 17%;
+    --popover: 240 7% 11%;
+    --popover-foreground: 220 9% 94%;
+    --border: 240 4% 16%;
     --input: 216 34% 17%;
-
     --card: 224 71% 4%;
     --card-foreground: 213 31% 91%;
-
     --primary: 210 40% 98%;
     --primary-foreground: 222.2 47.4% 1.2%;
-
-    --secondary: 222.2 47.4% 11.2%;
-    --secondary-foreground: 210 40% 98%;
-
-    --destructive: 0 63% 31%;
+    --secondary: 240 7% 11%;
+    --secondary-foreground: 220 9% 94%;
+    --destructive: 0 63% 40%;
     --destructive-foreground: 210 40% 98%;
-
-    --ring: 216 34% 17%;
-
+    --ring: 217.14deg 95.45% 91.37% / 19.1%;
     --radius: 0.5rem;
+    --input-accent-background: 240 4% 16%;
+    --input-accent-foreground: 213 31% 91%;
   }
 }
 
@@ -74,8 +66,88 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
+
     font-feature-settings: "rlig" 1, "calt" 1;
   }
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+em {
+  @apply font-serif;
+}
+
+::selection {
+  @apply bg-zinc-100;
+}
+
+.dark ::selection {
+  @apply bg-gray-700;
+}
+
+section > p:first-of-type {
+  @apply mt-0;
+}
+
+section > p:last-of-type {
+  @apply mb-0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  @apply border-none;
+
+  -webkit-text-fill-color: var(--input-accent-foreground);
+  box-shadow: 0 0 0 1000px var(--input-accent-background) inset;
+  transition: background-color 5000s ease-in-out 0s;
+  color: var(--input-accent-foreground);
+}
+
+.bg-overlay {
+  @apply absolute inset-0 h-[480px] opacity-60;
+
+  background: linear-gradient(to bottom, var(--background-overlay), transparent);
+}
+
+a > .link-content {
+  @apply hover:underline;
+}
+
+.shadow-gradient {
+  --orange-a7: rgb(255 89 0 / 51%);
+  --pink-a7: rgb(196 0 121 / 32%);
+  --violet-a7: rgb(43 1 212 / 28%);
+  --pink-a4: rgb(226 0 139 / 10%);
+
+  box-shadow:
+    -15px 0 30px -10px var(--orange-a7),
+    0 0 30px -10px var(--pink-a7),
+    15px 0 30px -10px var(--violet-a7),
+    0 0 0 1px var(--pink-a4);
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+
+[data-sonner-toaster][data-theme="dark"],
+[data-sonner-toaster][data-theme="light"] {
+  --normal-bg: hsl(var(--background)) !important;
+  --normal-border: hsl(var(--muted));
+  --normal-text: hsl(var(--foreground)) !important;
 }
