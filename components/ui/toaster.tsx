@@ -41,9 +41,7 @@ const ToasterProvider = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [getPosition(winWidth)]);
 
-  return (
-    <Toaster theme={theme as Theme} position={position} />
-  );
+  return <Toaster theme={theme as Theme} position={position} />;
 };
 
 export { toast } from "sonner";

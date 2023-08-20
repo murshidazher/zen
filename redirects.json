@@ -1,8 +1,4 @@
-[{
-    "source": "/api/mail",
-    "destination": "/.netlify/functions/emails/contact",
-    "permanent": true
-  },
+[
   {
     "source": "/home",
     "destination": "/",
@@ -71,6 +67,11 @@
   {
     "source": "/resume",
     "destination": "https://read.cv/murshidazher",
+    "permanent": true
+  },
+  {
+    "source": "/api/:path*",
+    "destination": "/.netlify/functions/:path*",
     "permanent": true
   }
 ]

@@ -10,8 +10,8 @@ type Payload = {
   subject: string;
 };
 
-const mail: Handler = async (event, context) => {
-  const body: Payload = JSON.parse(event?.body ?? "").payload;
+const handler: Handler = async (event, context) => {
+  const body: Payload = JSON.parse(event?.body ?? "");
   const { name, subject: type, email, message } = body;
 
   const subject = `Incoming message from ${name} via ${email}`;
@@ -34,7 +34,5 @@ const mail: Handler = async (event, context) => {
     body: JSON.stringify({ message: "The email is sent." }),
   };
 };
-
-const handler = builder(mail);
 
 export { handler };
