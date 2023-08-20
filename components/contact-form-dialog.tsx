@@ -61,7 +61,7 @@ const ContactFormDialog = () => {
 
     // TODO: call the postmark api
     toast.error("The post feature is yet to be implemented, hence contact me via hello@murshidazher.com", { icon: <ExclamationTriangleIcon /> });
-  }, []);
+  }, [form.formState.isValid]);
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>

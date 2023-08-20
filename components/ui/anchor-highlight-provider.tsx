@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, type FC, type ReactNode } from "react";
+import { useRef, type FC, type ReactNode, ReactElement } from "react";
 import tailwindConfig from "@/tailwind.config";
 import { useEventListener } from "@react-hookz/web";
 import { useTheme } from "next-themes";
@@ -57,7 +57,7 @@ const AnchorHighlightProvider: FC<AnchorHighlightProviderProps> = ({
     { passive: true }
   );
 
-  return children;
+  return <>{children}</>;
 };
 
 export default AnchorHighlightProvider;
