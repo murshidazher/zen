@@ -42,7 +42,7 @@ const ToasterProvider = () => {
   }, [getPosition(winWidth)]);
 
   return (
-    <Toaster theme={theme as Theme} duration={100000} position={position} />
+    <Toaster theme={theme as Theme} position={position} />
   );
 };
 
