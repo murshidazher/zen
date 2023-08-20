@@ -68,10 +68,5 @@
     "source": "/resume",
     "destination": "https://read.cv/murshidazher",
     "permanent": true
-  },
-  {
-    "source": "/api/:path*",
-    "destination": "/.netlify/functions/:path*",
-    "permanent": true
   }
 ]

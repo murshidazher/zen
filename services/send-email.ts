@@ -1,7 +1,7 @@
 import { ContactForm } from "@/types/contact-form";
 
 const sendEmail = async (payload: ContactForm) => {
-  const response = await fetch(`/api/mail`, {
+  const response = await fetch(`/.netlify/functions/mail`, {
     headers: {
       "Content-Type": "application/json",
       "netlify-emails-secret": process.env.NETLIFY_EMAILS_SECRET ?? "",
