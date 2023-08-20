@@ -3,6 +3,7 @@
 # [zen](https://github.com/murshidazher/zen)
 
 ![Next JS](https://img.shields.io/badge/next-black?logo=next.js\&logoColor=white)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5bb22eef-8559-4079-be63-e42c63f63770/deploy-status)](https://app.netlify.com/sites/murshidazher/deploys)
 
 - ⚡️ My personal website — 2023 edition
 
