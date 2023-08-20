@@ -1,7 +1,9 @@
 [build]
   command = "npm run build"
   publish = ".next"
+  functions = "./functions"
 
+# nextjs plugins
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 [[plugins]]
@@ -22,6 +24,10 @@
 		"bing",
 		"yandex"
 	  ]
+
+# email plugin
+[[plugins]]
+  package = "@netlify/plugin-emails"
 
 [[headers]]
   for = "*.webmanifest"

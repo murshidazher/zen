@@ -1,0 +1,76 @@
+[{
+    "source": "/api/mail",
+    "destination": "/.netlify/functions/emails/contact",
+    "permanent": true
+  },
+  {
+    "source": "/home",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/now",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/education",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/games",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/about",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/contact",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/twitter",
+    "destination": "https://twitter.com/murshidazher",
+    "permanent": true
+  },
+  {
+    "source": "/github",
+    "destination": "https://github.com/murshidazher",
+    "permanent": true
+  },
+  {
+    "source": "/linkedin",
+    "destination": "https://linkedin.com/in/murshidazher",
+    "permanent": true
+  },
+  {
+    "source": "/dribbble",
+    "destination": "https://dribbble.com/murshidazher",
+    "permanent": true
+  },
+  {
+    "source": "/instagram",
+    "destination": "https://www.instagram.com/murshidazher",
+    "permanent": true
+  },
+  {
+    "source": "/behance",
+    "destination": "https://www.behance.net/murshidazher",
+    "permanent": true
+  },
+  {
+    "source": "/medium",
+    "destination": "https://medium.com/@imurshid",
+    "permanent": true
+  },
+  {
+    "source": "/resume",
+    "destination": "https://read.cv/murshidazher",
+    "permanent": true
+  }
+]

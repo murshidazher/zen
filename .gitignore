@@ -37,3 +37,6 @@ yarn-error.log*
 
 # ts
 tsconfig.tsbuildinfo
+
+# Local Netlify folder
+.netlify

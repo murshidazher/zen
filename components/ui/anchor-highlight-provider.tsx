@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, type FC, type ReactNode, ReactElement } from "react";
+import { ReactElement, useRef, type FC, type ReactNode } from "react";
 import tailwindConfig from "@/tailwind.config";
 import { useEventListener } from "@react-hookz/web";
 import { useTheme } from "next-themes";

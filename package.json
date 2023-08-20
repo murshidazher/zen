@@ -5,6 +5,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "dev:lambda": "netlify dev",
     "format": "npm-run-all -s format:*",
     "format:fix": "npm-run-all -s lint:fix lint:fix:*",
     "format:md": "remark . -o --",
@@ -20,6 +21,8 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.2.0",
+    "@netlify/emails": "~1.1.0",
+    "@netlify/functions": "~1.6.0",
     "@radix-ui/react-avatar": "^1.0.3",
     "@radix-ui/react-icons": "~1.3.0",
     "@radix-ui/react-label": "^2.0.2",
@@ -62,6 +65,8 @@
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-tailwindcss": "^3.13.0",
+    "netlify-cli": "~16.1.0",
+    "next-secure-headers": "^2.2.0",
     "npm-run-all": "4.1.5",
     "postcss": "^8.4.28",
     "prettier": "^2.8.8",

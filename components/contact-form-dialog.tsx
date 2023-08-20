@@ -1,8 +1,8 @@
 "use client";
 
 import { useCallback } from "react";
+import sendEmail from "@/services/send-email";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { ExclamationTriangleIcon, InfoCircledIcon } from "@radix-ui/react-icons";
 import { SubmitHandler, useForm } from "react-hook-form";
 
 import { ContactForm, contactFormSchema } from "@/types/contact-form";
@@ -53,15 +53,25 @@ const ContactFormDialog = () => {
     defaultValues,
   });
 
-  const onSubmit: SubmitHandler<ContactForm> = useCallback(async (value) => {
-    if (!form.formState.isValid) {
-      toast.error("Please fill out all fields", { icon: <InfoCircledIcon /> });
-      return;
-    }
+  const onSubmit: SubmitHandler<ContactForm> = useCallback(
+    async (value) => {
+      const promise = async () => {
+        await sendEmail(value);
+        form.reset(defaultValues);
+      };
 
-    // TODO: call the postmark api
-    toast.error("The post feature is yet to be implemented, hence contact me via hello@murshidazher.com", { icon: <ExclamationTriangleIcon /> });
-  }, [form.formState.isValid]);
+      await toast.promise(promise, {
+        loading: "Sending the mail...",
+        success: (data) => `The mail was sent successfully.`,
+        error: (error) => {
+          form.reset(value);
+          return error.message;
+        },
+      });
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    []
+  );
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
@@ -78,6 +88,7 @@ const ContactFormDialog = () => {
           <form
             onSubmit={form.handleSubmit(onSubmit)}
             className="prose prose-neutral grid w-full gap-2 py-2"
+            data-netlify="true"
           >
             <FormField
               control={form.control}
@@ -175,8 +186,18 @@ const ContactFormDialog = () => {
                 Cancel
                 <VisuallyHidden>Close</VisuallyHidden>
               </Button>
-              <Button className="shadow-gradient" size={"sm"} type="submit">
-                Send <Icons.mailbox className="ml-2" />
+              <Button
+                className="shadow-gradient"
+                size={"sm"}
+                type="submit"
+                disabled={form.formState.isSubmitted}
+              >
+                Send
+                {!form.formState.isSubmitted ? (
+                  <Icons.mailbox className="ml-2" />
+                ) : (
+                  <Icons.spinner className="ml-2 h-4 w-4" />
+                )}
                 <VisuallyHidden>Send</VisuallyHidden>
               </Button>
             </DialogFooter>

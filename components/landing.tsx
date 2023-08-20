@@ -9,7 +9,7 @@ export const Landing = ({
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) => {
   return (
-    <section id="landing" aria-label="landing">
+    <section id="landing" aria-label="Landing">
       <div className="mx-auto max-w-7xl px-8 py-12 font-sans lg:pt-24">
         <div className="mx-auto max-w-xl lg:ml-2">
           <div>

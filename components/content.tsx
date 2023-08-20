@@ -11,9 +11,9 @@ export const Content = () => {
           <div className="grid gap-12 md:gap-8">
             <Section className="mt-24" title="About" hideTitle>
               <p>
-                I&apos;m a <em>seasoned engineer</em> who
-                specializes in the craft&nbsp;of delivering polished softwares
-                and memorable user experiences.
+                I&apos;m a <em>seasoned engineer</em> who specializes in the
+                craft&nbsp;of delivering polished softwares and memorable user
+                experiences.
               </p>
 
               <p>

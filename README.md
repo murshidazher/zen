@@ -2,9 +2,9 @@
 
 # [zen](https://github.com/murshidazher/zen)
 
-![Next JS](https://img.shields.io/badge/next-black?logo=next.js\&logoColor=white&style=flat-square)
+![Next JS](https://img.shields.io/badge/next-black?logo=next.js\&logoColor=white\&style=flat-square)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/murshidazher/zen?style=flat-square)
-![Netlify](https://img.shields.io/netlify/5bb22eef-8559-4079-be63-e42c63f63770?logo=netlify&style=flat-square)
+![Netlify](https://img.shields.io/netlify/5bb22eef-8559-4079-be63-e42c63f63770?logo=netlify\&style=flat-square)
 ![GitHub](https://img.shields.io/github/license/murshidazher/murshid?style=flat-square)
 ![Blazing Fast](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)
 ![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
@@ -18,6 +18,7 @@
   - [Getting Started](#getting-started)
     - [Pre-requisite](#pre-requisite)
     - [Up and Running](#up-and-running)
+    - [Check emails](#check-emails)
   - [Inspirations](#inspirations)
   - [Typeface](#typeface)
   - [License](#license)
@@ -48,15 +49,32 @@ pnpm i
 Create an `.env.local` file with the following variables:
 
 ```sh
-NEXT_PUBLIC_SITE_URL=        # The local / hosted url (i.e. http://localhost:3000)
-POSTMARK_SERVER_API_TOKEN="" # The Postmark API Token
-EMAIL_ADDRESS=""             # The email address to send emails
+NEXT_PUBLIC_SITE_URL=                 # The local / hosted url (i.e. http://localhost:3000)
+
+# https://docs.netlify.com/integrations/email-integration/#required-environment-variables
+NETLIFY_EMAILS_PROVIDER=""            # Netlify email provider (i.e. postmark)
+NETLIFY_EMAILS_PROVIDER_API_KEY=""    # Netlify email provider API Token
+EMAIL_ADDRESS=""                      # The email address to send emails
+
+NETLIFY_EMAILS_DIRECTORY="./functions/mail/templates"
 ```
 
 To start the development server
 
 ```sh
 pnpm dev
+```
+
+### Check emails
+
+> 💡 Read more on setup and usage in the [netlify email docs](https://github.com/netlify/netlify-emails-plugin#step-4-previewing-emails-locally)
+
+To check the email provider api locally,
+
+```sh
+netlify link    # link the netlify repo to get site id
+netlify build   # build the deps
+netlify dev     # run on port http://localhost:8888/.netlify/functions/emails
 ```
 
 ## Inspirations

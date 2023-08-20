@@ -24,5 +24,6 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/murshidazher",
     behance: "https://www.behance.net/murshidazher",
     medium: "https://medium.com/@imurshid",
+    resume: "https://read.cv/murshidazher",
   },
 };
