@@ -1,0 +1,38 @@
+{
+  "material-icon-theme.files.associations": {
+    ".remarkignore": "reason"
+  },
+  "cSpell.words": [
+    "murshidazher",
+    "lucide",
+    "murshid",
+    "azher",
+    "commitlint",
+    "commitlintrc",
+    "dbaeumer",
+    "esbenp",
+    "frontmatter",
+    "lintstaged",
+    "lintstagedrc",
+    "npmrc",
+    "remarkignore",
+    "remarkrc",
+    "sergey",
+    "syncpack",
+    "syncpackrc",
+    "tsbuildinfo",
+    "tailwindcss",
+    "stylelint",
+    "unifiedjs",
+    "pitchin",
+    "pino",
+    "casl",
+    "postbuild",
+    "radash",
+    "newlevelup"
+  ],
+  "files.eol": "\n",
+  "prettier.requireConfig": true,
+  "eslint.enable": true,
+  "eslint.debug": false
+}
