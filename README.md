@@ -57,7 +57,7 @@ pnpm dev
 ## Inspirations
 
 - ✺ [Hayden Bleasel](https://haydenbleasel.com/) - Most of the component styles were heavily inspired and taken from this portfolio.
-- [Siddharth Arun](https://sdrn.co/) - The website layout.
+- 🗞️ [Siddharth Arun](https://sdrn.co/) - The website layout.
 - 📦 [radix](https://www.radix-ui.com/) - UI elements.
 - ⚙️ [shadn](https://ui.shadcn.com/) - Components and styles.
 - 🫐 [qoals](https://qoals.com/) - Blended Blur Background.
