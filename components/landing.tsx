@@ -32,10 +32,6 @@ export const Landing = ({
                         </div>
                       </AvatarFallback>
                     </Avatar>
-                    <span
-                      className="absolute inset-0 rounded-full shadow-inner"
-                      aria-hidden="true"
-                    />
                   </div>
                 </div>
                 <div className="pt-1.5">

@@ -38,3 +38,41 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+
+[[redirects]]
+    from = "/api/*"
+    to = "/.netlify/functions/:splat"
+    status = 200
+
+[[redirects]]
+    from = "/home"
+    to = "/"
+
+# social
+[[redirects]]
+    from = "/twitter"
+    to = "https://twitter.com/murshidazher"
+[[redirects]]
+    from = "/github"
+    to = "https://github.com/murshidazher"
+[[redirects]]
+    from = "/linkedin"
+    to = "https://linkedin.com/in/murshidazher"
+[[redirects]]
+    from = "/dribbble"
+    to = "https://dribbble.com/murshidazher"
+[[redirects]]
+    from = "/instagram"
+    to = "https://www.instagram.com/murshidazher"
+[[redirects]]
+    from = "/behance"
+    to = "https://www.behance.net/murshidazher"
+[[redirects]]
+    from = "/medium"
+    to = "https://medium.com/@imurshid"
+
+# other
+[[redirects]]
+    from = "/resume"
+    to = "https://read.cv/murshidazher"
