@@ -1,3 +1,4 @@
+import { siteConfig } from "@/config/site";
 import Footnote from "@/components/ui/footnote";
 import Link from "@/components/ui/link";
 import Section from "@/components/ui/section";
@@ -52,7 +53,10 @@ export const Content = () => {
               </p>
               <p>
                 If you need to know more about my work experiences,&nbsp;
-                <Link href="https://read.cv/murshidazher">see my CV</Link>.
+                <Link href={`${siteConfig.links.resume}#work-experience`}>
+                  see my CV
+                </Link>
+                .
               </p>
             </Section>
             <Section title="After Hours">
@@ -85,7 +89,10 @@ export const Content = () => {
               </p>
               <p>
                 For more on education & certification,&nbsp;
-                <Link href="https://read.cv/murshidazher">see my CV</Link>.
+                <Link href={`${siteConfig.links.resume}#education`}>
+                  see my CV
+                </Link>
+                .
               </p>
             </Section>
             <Section title="Availability">

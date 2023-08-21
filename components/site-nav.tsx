@@ -1,3 +1,5 @@
+import { SocialLink } from "@/types/social-link";
+import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { Icons } from "@/components/ui/icons";
 import Link from "@/components/ui/link";
@@ -6,25 +8,19 @@ import { Tooltip } from "@/components/ui/tooltip";
 import ContactIcon from "@/components/contact-icon";
 import ThemeToggle from "@/components/theme-toggle";
 
-type SocialLinks = {
-  href: string;
-  name: string;
-  component: React.ReactNode;
-};
-
-const socialLinks: SocialLinks[] = [
+const socialLinks: SocialLink[] = [
   {
-    href: "https://twitter.com/murshidazher",
+    href: siteConfig.links.twitter,
     name: "Twitter",
     component: <Icons.twitter />,
   },
   {
-    href: "https://github.com/murshidazher",
+    href: siteConfig.links.github,
     name: "GitHub",
     component: <Icons.gitHub />,
   },
   {
-    href: "https://www.linkedin.com/in/murshidazher/",
+    href: siteConfig.links.linkedin,
     name: "LinkedIn",
     component: <Icons.linkedin />,
   },
@@ -68,7 +64,7 @@ export const SiteNav = ({ className }: SiteNavProps) => {
             "anchor-highlight-none",
             "hover:bg-neutral-100 dark:hover:bg-neutral-800"
           )}
-          href="https://read.cv/murshidazher"
+          href={siteConfig.links.resume}
         >
           <Icons.resume />
         </Link>
