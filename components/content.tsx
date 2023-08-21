@@ -45,7 +45,7 @@ export const Content = () => {
                 <Footnote index={3} />.
               </p>
               <p>
-                Prior to joining :Different in 2021 — I&apos;ve spent several
+                Prior to joining :Different in 2021 — I&apos;ve spent couple of
                 years working at&nbsp;
                 <Link href="https://atera.io/">Atera</Link>, a creative agency,
                 where I worked with many incredible clients and helped them in
