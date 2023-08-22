@@ -37,6 +37,9 @@
 npm install -g pnpm
 ```
 
+4. You need a `postmark` account for sending contact emails.
+5. You need a `cloudinary` account for image hosting.
+
 ### Up and Running
 
 Clone the repository and install dependencies
@@ -49,8 +52,9 @@ pnpm i
 Create an `.env.local` file with the following variables:
 
 ```sh
-NEXT_PUBLIC_SITE_URL=                 # The local / hosted url (i.e. http://localhost:3000)
-EMAIL_ADDRESS=""                      # The email address to send emails
+NEXT_PUBLIC_SITE_URL=                   # The local / hosted url (i.e. http://localhost:3000)
+EMAIL_ADDRESS=""                        # The email address to send emails
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""    # Add your cloudinary name
 ```
 
 To start the development server

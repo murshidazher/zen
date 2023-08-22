@@ -5,6 +5,14 @@ export function cn(...inputs: CxOptions) {
   return twMerge(cx(inputs));
 }
 
+export function getCldImageUrl(options: {
+  transformations: string;
+  path: string;
+}) {
+  const url = "https://res.cloudinary.com";
+  return `${url}/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/${options.transformations}/${options.path}`;
+}
+
 export const convertArabicToRoman = (num: number): string => {
   const rules: Record<string, number> = {
     M: 1000,

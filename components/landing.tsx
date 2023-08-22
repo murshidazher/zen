@@ -1,6 +1,6 @@
 import { siteConfig } from "@/config/site";
 import { googleSansDisplay } from "@/lib/fonts";
-import { cn } from "@/lib/utils";
+import { cn, getCldImageUrl } from "@/lib/utils";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Icons } from "@/components/ui/icons";
 import { Indicator } from "@/components/ui/indicator";
@@ -22,7 +22,12 @@ export const Landing = ({
                       <AvatarImage
                         height={64}
                         width={64}
-                        src={"/images/avatar.jpg"}
+                        data-sizes="auto"
+                        src={getCldImageUrl({
+                          transformations:
+                            "dpr_1.0,c_scale,f_webp,fl_awebp.progressive.progressive:semi,f_webp,fl_awebp,q_80",
+                          path: "avatar.jpg",
+                        })}
                         className="rounded-full border dark:border-2 dark:border-zinc-800"
                         alt={`A photo of ${siteConfig.name}.`}
                       />
