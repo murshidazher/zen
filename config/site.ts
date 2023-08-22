@@ -1,3 +1,5 @@
+import { getCldImageUrl } from "@/lib/utils";
+
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
@@ -5,7 +7,11 @@ export const siteConfig = {
   title: "Murshid Azher — Senior Software Engineer at :Different",
   url: process.env.NEXT_PUBLIC_SITE_URL,
   license: "https://github.com/murshidazher/zen/blob/main/LICENSE",
-  ogImage: "https://ui.shadcn.com/og.jpg",
+  ogImage: getCldImageUrl({
+    transformations:
+      "f_webp,fl_awebp.progressive.progressive:semi,f_webp,fl_awebp,q_80",
+    path: "opengraph-image.png",
+  }),
   locale: "en_US",
   description:
     "Murshid is a creative developer from the south with five years of expertise in developing and creating brands spanning from consumer apps to enterprise-level solutions",
