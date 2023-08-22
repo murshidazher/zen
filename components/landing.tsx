@@ -5,6 +5,13 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Icons } from "@/components/ui/icons";
 import { Indicator } from "@/components/ui/indicator";
 
+export const getHeadShotUrl = () =>
+  getCldImageUrl({
+    transformations:
+      "dpr_1.0,c_scale,f_webp,fl_awebp.progressive.progressive:semi,f_webp,fl_awebp,q_80",
+    path: "avatar.jpg",
+  });
+
 export const Landing = ({
   className,
   ...props
@@ -23,11 +30,7 @@ export const Landing = ({
                         height={64}
                         width={64}
                         data-sizes="auto"
-                        src={getCldImageUrl({
-                          transformations:
-                            "dpr_1.0,c_scale,f_webp,fl_awebp.progressive.progressive:semi,f_webp,fl_awebp,q_80",
-                          path: "avatar.jpg",
-                        })}
+                        src={getHeadShotUrl()}
                         className="rounded-full border dark:border-2 dark:border-zinc-800"
                         alt={`A photo of ${siteConfig.name}.`}
                       />

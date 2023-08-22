@@ -10,6 +10,7 @@ import { TailwindIndicator } from "@/components/ui/tailwind-indicator";
 import { ToasterProvider } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import ContactFormDialog from "@/components/contact-form-dialog";
+import ProfileJsonLd from "@/components/profile-json-ld";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
@@ -87,6 +88,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <ContactFormDialog />
             <ToasterProvider />
           </ThemeProvider>
+          <ProfileJsonLd />
         </body>
       </html>
     </>
