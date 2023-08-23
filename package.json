@@ -72,7 +72,7 @@
     "prettier": "^2.8.8",
     "remark": "14.0.3",
     "remark-cli": "11.0.0",
-    "stylelint": "14.8.3",
+    "stylelint": "14.16.1",
     "stylelint-config-standard": "25.0.0",
     "syncpack": "8.5.14",
     "tailwind-merge": "^1.14.0",
