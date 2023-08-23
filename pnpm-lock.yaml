@@ -89,8 +89,8 @@ devDependencies:
     specifier: ^3.7.2
     version: 3.7.2(prettier@2.8.8)
   '@newlevelup/commitlint-config':
-    specifier: 1.1.11
-    version: 1.1.11(@commitlint/cli@17.6.6)
+    specifier: 1.1.13
+    version: 1.1.13(@commitlint/cli@17.7.1)
   '@newlevelup/editor-config':
     specifier: ~1.0.1
     version: 1.0.1
@@ -421,8 +421,8 @@ packages:
     engines: {node: '>=0.1.90'}
     dev: true
 
-  /@commitlint/cli@17.6.6:
-    resolution: {integrity: sha512-sTKpr2i/Fjs9OmhU+beBxjPavpnLSqZaO6CzwKVq2Tc4UYVTMFgpKOslDhUBVlfAUBfjVO8ParxC/MXkIOevEA==}
+  /@commitlint/cli@17.7.1:
+    resolution: {integrity: sha512-BCm/AT06SNCQtvFv921iNhudOHuY16LswT0R3OeolVGLk8oP+Rk9TfQfgjH7QPMjhvp76bNqGFEcpKojxUNW1g==}
     engines: {node: '>=v14'}
     hasBin: true
     dependencies:
@@ -1571,12 +1571,12 @@ packages:
       - supports-color
     dev: true
 
-  /@newlevelup/commitlint-config@1.1.11(@commitlint/cli@17.6.6):
-    resolution: {integrity: sha512-+0ecfQfslC9hQFvn9Rgfp0pX66BKwoSHXuEInica473Klsp5tV8uQU6Vr1iGr9Nne7+rF1c0kwDOQiJL5o8Qcw==}
+  /@newlevelup/commitlint-config@1.1.13(@commitlint/cli@17.7.1):
+    resolution: {integrity: sha512-2MqmxRr4qe6pCqIg5qrgDmXFZK8SRwQAmmEfN/MJvkZrl2yAnpTwzp5wKh6CYzYMeFhTVgbCjF06/pAtS+bgzA==}
     peerDependencies:
-      '@commitlint/cli': 17.6.6
+      '@commitlint/cli': 17.7.1
     dependencies:
-      '@commitlint/cli': 17.6.6
+      '@commitlint/cli': 17.7.1
     dev: true
 
   /@newlevelup/editor-config@1.0.1:
