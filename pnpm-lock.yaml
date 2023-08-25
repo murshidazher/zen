@@ -12,8 +12,8 @@ dependencies:
     specifier: ~1.1.0
     version: 1.1.0
   '@netlify/functions':
-    specifier: ~1.6.0
-    version: 1.6.0
+    specifier: ~2.0.0
+    version: 2.0.0
   '@radix-ui/react-avatar':
     specifier: ^1.0.3
     version: 1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
@@ -1348,6 +1348,14 @@ packages:
       is-promise: 4.0.0
     dev: false
 
+  /@netlify/functions@2.0.0:
+    resolution: {integrity: sha512-YJc8LikRByxcQ731cZo75TS7nu82baG02sy632AMNmtDLBP6QsRHN4R1rDjjpge24R0cMchLqbifnVNggs4FWQ==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      '@netlify/serverless-functions-api': 1.7.0
+      is-promise: 4.0.0
+    dev: false
+
   /@netlify/git-utils@5.1.1:
     resolution: {integrity: sha512-oyHieuTZH3rKTmg7EKpGEGa28IFxta2oXuVwpPJI/FJAtBje3UE+yko0eDjNufgm3AyGa8G77trUxgBhInAYuw==}
     engines: {node: ^14.16.0 || >=16.0.0}
@@ -1518,6 +1526,13 @@ packages:
     resolution: {integrity: sha512-Lr5mxLAvSZyJhigSc0zhvAuusNR6VdJNvOmsDkxIN6f9xzmRpWyAEecCGtBc+hoSZlIeLzI7oFcKhaTzXcO2JA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dev: true
+
+  /@netlify/serverless-functions-api@1.7.0:
+    resolution: {integrity: sha512-wqkraNSlom2uHYVSjdzl5XiUnlgSjElQ2jamjNhoidXW2n2jKPgefzn47DT4tfLe6qewHOctz66I+pjVbLz9Ow==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    dependencies:
+      urlpattern-polyfill: 8.0.2
+    dev: false
 
   /@netlify/zip-it-and-ship-it@9.15.1(supports-color@9.4.0):
     resolution: {integrity: sha512-gYEZ8Rrl9dtME3syR3Uj+JabEWvEiFUKO0/84joriVIfWGrYPzu9WKBqOjy+huWIAYEWPbEJRmxFEJrYOmhDgw==}
@@ -13094,7 +13109,6 @@ packages:
 
   /urlpattern-polyfill@8.0.2:
     resolution: {integrity: sha512-Qp95D4TPJl1kC9SKigDcqgyM2VDVO4RiJc2d4qe5GrYm+zbIQCWWKAFaJNQ4BhdFeDGwBmAxqJBwWSJDb9T3BQ==}
-    dev: true
 
   /use-callback-ref@1.3.0(@types/react@18.2.20)(react@18.2.0):
     resolution: {integrity: sha512-3FT9PRuRdbB9HfXhEq35u4oZkvpJ5kuYbpqhCfmiZyReuRgpnhDlbr2ZEnnuS0RrJAPn6l23xjFg9kpDM+Ms7w==}

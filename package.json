@@ -22,7 +22,7 @@
   "dependencies": {
     "@hookform/resolvers": "^3.2.0",
     "@netlify/emails": "~1.1.0",
-    "@netlify/functions": "~1.6.0",
+    "@netlify/functions": "~2.0.0",
     "@radix-ui/react-avatar": "^1.0.3",
     "@radix-ui/react-icons": "~1.3.0",
     "@radix-ui/react-label": "^2.0.2",
