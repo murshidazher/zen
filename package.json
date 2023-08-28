@@ -44,7 +44,7 @@
     "sharp": "^0.32.0",
     "slugify": "^1.6.6",
     "sonner": "^0.7.0",
-    "zod": "~3.21.4",
+    "zod": "~3.22.0",
     "zustand": "^4.4.1"
   },
   "devDependencies": {
