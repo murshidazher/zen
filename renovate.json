@@ -1,0 +1,45 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "baseBranches": [
+    "main"
+  ],
+  "packageRules": [{
+      "automerge": true,
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance",
+        "bump"
+      ]
+    },
+    {
+      "description": "Group New Level Up packages together",
+      "groupName": "newlevelup packages",
+      "groupSlug": "newlevelup",
+      "matchPackagePatterns": [
+        "^@newlevelup"
+      ]
+    },
+    {
+      "description": "Group Next.js packages and plugins together",
+      "extends": [
+        "monorepo:nextjs"
+      ],
+      "groupName": "nextjs packages",
+      "groupSlug": "nextjs",
+      "matchPackagePatterns": [
+        "^next"
+      ]
+    }
+  ],
+  "postUpdateOptions": [
+    "yarnDedupeHighest"
+  ],
+  "prCreation": "not-pending",
+  "rebaseWhen": "conflicted"
+}

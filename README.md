@@ -31,6 +31,14 @@
 
 1. Install either [asdf](https://asdf-vm.com/guide/getting-started.html) or [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) to manage your node version.
 2. Install the node version mentioned in the `.nvmrc` file.
+
+```sh
+# if you're using asdf
+asdf install nodejs
+# if you're using nvm
+nvm install
+```
+
 3. Install `pnpm` globally as package manager,
 
 ```sh

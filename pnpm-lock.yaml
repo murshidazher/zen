@@ -6,153 +6,150 @@ settings:
 
 dependencies:
   '@hookform/resolvers':
-    specifier: ^3.2.0
+    specifier: 3.2.0
     version: 3.2.0(react-hook-form@7.45.4)
   '@netlify/emails':
-    specifier: ~1.1.0
+    specifier: 1.1.0
     version: 1.1.0
   '@netlify/functions':
-    specifier: ~2.0.0
+    specifier: 2.0.0
     version: 2.0.0
   '@radix-ui/react-avatar':
-    specifier: ^1.0.3
+    specifier: 1.0.3
     version: 1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@radix-ui/react-icons':
-    specifier: ~1.3.0
+    specifier: 1.3.0
     version: 1.3.0(react@18.2.0)
   '@radix-ui/react-label':
-    specifier: ^2.0.2
+    specifier: 2.0.2
     version: 2.0.2(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@radix-ui/react-scroll-area':
-    specifier: ^1.0.4
+    specifier: 1.0.4
     version: 1.0.4(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@radix-ui/react-select':
-    specifier: ^1.2.2
+    specifier: 1.2.2
     version: 1.2.2(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@radix-ui/react-separator':
-    specifier: ^1.0.3
+    specifier: 1.0.3
     version: 1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@radix-ui/react-slot':
-    specifier: ^1.0.2
+    specifier: 1.0.2
     version: 1.0.2(@types/react@18.2.20)(react@18.2.0)
   '@radix-ui/react-tooltip':
-    specifier: ^1.0.6
+    specifier: 1.0.6
     version: 1.0.6(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@radix-ui/react-visually-hidden':
-    specifier: ~1.0.3
+    specifier: 1.0.3
     version: 1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@react-hookz/web':
-    specifier: ^23.1.0
+    specifier: 23.1.0
     version: 23.1.0(react-dom@18.2.0)(react@18.2.0)
   class-variance-authority:
-    specifier: ^0.7.0
+    specifier: 0.7.0
     version: 0.7.0
   next:
-    specifier: ^13.4.19
+    specifier: 13.4.19
     version: 13.4.19(@babel/core@7.22.10)(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
   next-themes:
-    specifier: ^0.2.1
+    specifier: 0.2.1
     version: 0.2.1(next@13.4.19)(react-dom@18.2.0)(react@18.2.0)
   powerglitch:
-    specifier: ~2.3.2
+    specifier: 2.3.2
     version: 2.3.2
   react:
-    specifier: ^18.2.0
+    specifier: 18.2.0
     version: 18.2.0
   react-dom:
-    specifier: ^18.2.0
+    specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   react-hook-form:
-    specifier: ^7.45.4
+    specifier: 7.45.4
     version: 7.45.4(react@18.2.0)
   react-wrap-balancer:
-    specifier: ^1.0.0
+    specifier: 1.0.0
     version: 1.0.0(react@18.2.0)
   sharp:
-    specifier: ^0.32.0
+    specifier: 0.32.0
     version: 0.32.0
   slugify:
-    specifier: ^1.6.6
+    specifier: 1.6.6
     version: 1.6.6
   sonner:
-    specifier: ^0.7.0
+    specifier: 0.7.0
     version: 0.7.0(react-dom@18.2.0)(react@18.2.0)
   zod:
-    specifier: ~3.22.0
+    specifier: 3.22.2
     version: 3.22.2
   zustand:
-    specifier: ^4.4.1
+    specifier: 4.4.1
     version: 4.4.1(@types/react@18.2.20)(react@18.2.0)
 
 devDependencies:
   '@ianvs/prettier-plugin-sort-imports':
-    specifier: ^4.0.0
+    specifier: 4.0.0
     version: 4.0.0(prettier@3.0.0)
   '@newlevelup/commitlint-config':
     specifier: 1.1.13
     version: 1.1.13(@commitlint/cli@17.7.1)
   '@newlevelup/editor-config':
-    specifier: ~1.0.1
+    specifier: 1.0.1
     version: 1.0.1
   '@newlevelup/remark-config':
-    specifier: ~1.0.9
+    specifier: 1.0.9
     version: 1.0.9(prettier@3.0.0)(remark-cli@11.0.0)(remark@14.0.3)
-  '@newlevelup/renovate-config':
-    specifier: ~1.2.0
-    version: 1.2.0
   '@newlevelup/syncpack-config':
     specifier: 1.2.0
     version: 1.2.0(syncpack@11.2.1)
   '@radix-ui/react-dialog':
-    specifier: ^1.0.4
+    specifier: 1.0.4
     version: 1.0.4(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@tailwindcss/typography':
-    specifier: ^0.5.9
+    specifier: 0.5.9
     version: 0.5.9(tailwindcss@3.3.3)
   '@types/node':
-    specifier: ^18.0.0
-    version: 18.17.6
+    specifier: 20.5.7
+    version: 20.5.7
   '@types/react':
-    specifier: ^18.2.20
+    specifier: 18.2.20
     version: 18.2.20
   '@types/react-dom':
-    specifier: ^18.2.7
+    specifier: 18.2.7
     version: 18.2.7
   '@typescript-eslint/parser':
-    specifier: ^6.0.0
-    version: 6.0.0(eslint@8.47.0)(typescript@5.1.6)
+    specifier: 6.0.0
+    version: 6.0.0(eslint@8.47.0)(typescript@5.2.2)
   autoprefixer:
-    specifier: ~10.4.15
+    specifier: 10.4.15
     version: 10.4.15(postcss@8.4.28)
   eslint:
-    specifier: ^8.47.0
+    specifier: 8.47.0
     version: 8.47.0
   eslint-config-next:
     specifier: 13.4.19
-    version: 13.4.19(eslint@8.47.0)(typescript@5.1.6)
+    version: 13.4.19(eslint@8.47.0)(typescript@5.2.2)
   eslint-config-prettier:
-    specifier: ^9.0.0
+    specifier: 9.0.0
     version: 9.0.0(eslint@8.47.0)
   eslint-plugin-react:
-    specifier: ^7.33.2
+    specifier: 7.33.2
     version: 7.33.2(eslint@8.47.0)
   eslint-plugin-tailwindcss:
-    specifier: ^3.13.0
+    specifier: 3.13.0
     version: 3.13.0(tailwindcss@3.3.3)
   netlify-cli:
-    specifier: ~16.1.0
-    version: 16.1.0(@types/node@18.17.6)
+    specifier: 16.1.0
+    version: 16.1.0(@types/node@20.5.7)
   next-secure-headers:
-    specifier: ^2.2.0
+    specifier: 2.2.0
     version: 2.2.0
   npm-run-all:
     specifier: 4.1.5
     version: 4.1.5
   postcss:
-    specifier: ^8.4.28
+    specifier: 8.4.28
     version: 8.4.28
   prettier:
-    specifier: ^3.0.0
+    specifier: 3.0.0
     version: 3.0.0
   remark:
     specifier: 14.0.3
@@ -170,17 +167,17 @@ devDependencies:
     specifier: 11.2.1
     version: 11.2.1
   tailwind-merge:
-    specifier: ^1.14.0
+    specifier: 1.14.0
     version: 1.14.0
   tailwindcss:
-    specifier: ^3.3.3
+    specifier: 3.3.3
     version: 3.3.3(ts-node@10.9.1)
   tailwindcss-animate:
-    specifier: ^1.0.6
+    specifier: 1.0.6
     version: 1.0.6(tailwindcss@3.3.3)
   typescript:
-    specifier: ^5.0.0
-    version: 5.1.6
+    specifier: 5.2.2
+    version: 5.2.2
 
 packages:
 
@@ -506,13 +503,13 @@ packages:
       '@types/node': 20.4.7
       chalk: 4.1.2
       cosmiconfig: 8.2.0
-      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.4.7)(cosmiconfig@8.2.0)(ts-node@10.9.1)(typescript@5.1.6)
+      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.4.7)(cosmiconfig@8.2.0)(ts-node@10.9.1)(typescript@5.2.2)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1(@types/node@18.17.6)(typescript@5.1.6)
-      typescript: 5.1.6
+      ts-node: 10.9.1(@types/node@20.5.7)(typescript@5.2.2)
+      typescript: 5.2.2
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -794,7 +791,7 @@ packages:
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.7.8
-      '@types/node': 18.17.6
+      '@types/node': 20.5.7
     dev: true
 
   /@grpc/proto-loader@0.7.8:
@@ -904,7 +901,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 18.17.6
+      '@types/node': 20.5.7
       '@types/yargs': 16.0.5
       chalk: 4.1.2
     dev: true
@@ -984,7 +981,7 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /@netlify/build@29.20.4(@types/node@18.17.6)(debug@4.3.4):
+  /@netlify/build@29.20.4(@types/node@20.5.7)(debug@4.3.4):
     resolution: {integrity: sha512-qXht5lWE0RThGhhB5ILQv4/2Jp+p0muTDp9n+KtlqpinO1SvXicVPw+D2o3iWMsz3vQak6yX09oEvumP2Q+TVQ==}
     engines: {node: ^14.16.0 || >=16.0.0}
     hasBin: true
@@ -1040,8 +1037,8 @@ packages:
       strip-ansi: 7.1.0
       supports-color: 9.4.0
       terminal-link: 3.0.0
-      ts-node: 10.9.1(@types/node@18.17.6)(typescript@5.1.6)
-      typescript: 5.1.6
+      ts-node: 10.9.1(@types/node@20.5.7)(typescript@5.2.2)
+      typescript: 5.2.2
       uuid: 9.0.0
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -1550,17 +1547,11 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@netlify/serverless-functions-api@1.6.0:
-    resolution: {integrity: sha512-Lr5mxLAvSZyJhigSc0zhvAuusNR6VdJNvOmsDkxIN6f9xzmRpWyAEecCGtBc+hoSZlIeLzI7oFcKhaTzXcO2JA==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    dev: true
-
   /@netlify/serverless-functions-api@1.7.0:
     resolution: {integrity: sha512-wqkraNSlom2uHYVSjdzl5XiUnlgSjElQ2jamjNhoidXW2n2jKPgefzn47DT4tfLe6qewHOctz66I+pjVbLz9Ow==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       urlpattern-polyfill: 8.0.2
-    dev: false
 
   /@netlify/zip-it-and-ship-it@9.15.1(supports-color@9.4.0):
     resolution: {integrity: sha512-gYEZ8Rrl9dtME3syR3Uj+JabEWvEiFUKO0/84joriVIfWGrYPzu9WKBqOjy+huWIAYEWPbEJRmxFEJrYOmhDgw==}
@@ -1570,7 +1561,7 @@ packages:
       '@babel/parser': 7.22.10
       '@netlify/binary-info': 1.0.0
       '@netlify/esbuild': 0.14.39-1
-      '@netlify/serverless-functions-api': 1.6.0
+      '@netlify/serverless-functions-api': 1.7.0
       '@vercel/nft': 0.23.1(supports-color@9.4.0)
       archiver: 5.3.2
       common-path-prefix: 3.0.0
@@ -1611,7 +1602,7 @@ packages:
       '@babel/parser': 7.22.10
       '@netlify/binary-info': 1.0.0
       '@netlify/esbuild': 0.14.39-1
-      '@netlify/serverless-functions-api': 1.6.0
+      '@netlify/serverless-functions-api': 1.7.0
       '@vercel/nft': 0.23.1(supports-color@9.4.0)
       archiver: 5.3.2
       common-path-prefix: 3.0.0
@@ -1681,10 +1672,6 @@ packages:
     transitivePeerDependencies:
       - prettier
       - supports-color
-    dev: true
-
-  /@newlevelup/renovate-config@1.2.0:
-    resolution: {integrity: sha512-/TVHwTiPqjsgcu8Rn/7wZWjxzZA45PziSUU1dEz9UFG1fEEV/W7r2qzFZDImO3ckkzfpMhPcTYSfr7j2QAkcbA==}
     dev: true
 
   /@newlevelup/syncpack-config@1.2.0(syncpack@11.2.1):
@@ -3110,7 +3097,7 @@ packages:
   /@types/concat-stream@2.0.0:
     resolution: {integrity: sha512-t3YCerNM7NTVjLuICZo5gYAXYoDvpuuTceCcFQWcDQz26kxUR5uIWolxbIR5jRNIXpMqhOpW/b8imCR1LEmuJw==}
     dependencies:
-      '@types/node': 18.17.6
+      '@types/node': 20.5.7
     dev: true
 
   /@types/debug@4.1.8:
@@ -3146,7 +3133,7 @@ packages:
   /@types/http-proxy@1.17.11:
     resolution: {integrity: sha512-HC8G7c1WmaF2ekqpnFq626xd3Zz0uvaqFmBJNRZCGEZCXkvSdJoNFn/8Ygbd9fKNQj8UzLdCETaI0UWPAjK7IA==}
     dependencies:
-      '@types/node': 18.17.6
+      '@types/node': 20.5.7
     dev: true
 
   /@types/is-empty@1.2.1:
@@ -3191,12 +3178,16 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node@18.17.6:
-    resolution: {integrity: sha512-fGmT/P7z7ecA6bv/ia5DlaWCH4YeZvAQMNpUhrJjtAhOhZfoxS1VLUgU2pdk63efSjQaOJWdXMuAJsws+8I6dg==}
+  /@types/node@18.0.0:
+    resolution: {integrity: sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==}
     dev: true
 
   /@types/node@20.4.7:
     resolution: {integrity: sha512-bUBrPjEry2QUTsnuEjzjbS7voGWCc30W0qzgMf90GPeDGFRakvrz47ju+oqDAKCXLUCe39u57/ORMl/O/04/9g==}
+    dev: true
+
+  /@types/node@20.5.7:
+    resolution: {integrity: sha512-dP7f3LdZIysZnmvP3ANJYTSwg+wLLl8p7RqniVlV7j+oXSXAbt9h0WIBFmJy5inWZoX9wZN6eXx+YXd9Rh3RBA==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -3255,11 +3246,11 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 18.17.6
+      '@types/node': 20.5.7
     dev: true
     optional: true
 
-  /@typescript-eslint/parser@6.0.0(eslint@8.47.0)(typescript@5.1.6):
+  /@typescript-eslint/parser@6.0.0(eslint@8.47.0)(typescript@5.2.2):
     resolution: {integrity: sha512-TNaufYSPrr1U8n+3xN+Yp9g31vQDJqhXzzPSHfQDLcaO4tU+mCfODPxCwf4H530zo7aUBE3QIdxCXamEnG04Tg==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
@@ -3271,11 +3262,11 @@ packages:
     dependencies:
       '@typescript-eslint/scope-manager': 6.0.0
       '@typescript-eslint/types': 6.0.0
-      '@typescript-eslint/typescript-estree': 6.0.0(typescript@5.1.6)
+      '@typescript-eslint/typescript-estree': 6.0.0(typescript@5.2.2)
       '@typescript-eslint/visitor-keys': 6.0.0
       debug: 4.3.4(supports-color@9.4.0)
       eslint: 8.47.0
-      typescript: 5.1.6
+      typescript: 5.2.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3298,7 +3289,7 @@ packages:
     engines: {node: ^16.0.0 || >=18.0.0}
     dev: true
 
-  /@typescript-eslint/typescript-estree@5.62.0(supports-color@9.4.0)(typescript@5.1.6):
+  /@typescript-eslint/typescript-estree@5.62.0(supports-color@9.4.0)(typescript@5.2.2):
     resolution: {integrity: sha512-CmcQ6uY7b9y694lKdRB8FEel7JbU/40iSAPomu++SjLMntB+2Leay2LO6i8VnJk58MtE9/nQSFIH6jpyRWyYzA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -3313,13 +3304,13 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.5.4
-      tsutils: 3.21.0(typescript@5.1.6)
-      typescript: 5.1.6
+      tsutils: 3.21.0(typescript@5.2.2)
+      typescript: 5.2.2
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@typescript-eslint/typescript-estree@6.0.0(typescript@5.1.6):
+  /@typescript-eslint/typescript-estree@6.0.0(typescript@5.2.2):
     resolution: {integrity: sha512-2zq4O7P6YCQADfmJ5OTDQTP3ktajnXIRrYAtHM9ofto/CJZV3QfJ89GEaM2BNGeSr1KgmBuLhEkz5FBkS2RQhQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
@@ -3334,8 +3325,8 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.5.4
-      ts-api-utils: 1.0.2(typescript@5.1.6)
-      typescript: 5.1.6
+      ts-api-utils: 1.0.2(typescript@5.2.2)
+      typescript: 5.2.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4790,7 +4781,7 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: true
 
-  /cosmiconfig-typescript-loader@4.4.0(@types/node@20.4.7)(cosmiconfig@8.2.0)(ts-node@10.9.1)(typescript@5.1.6):
+  /cosmiconfig-typescript-loader@4.4.0(@types/node@20.4.7)(cosmiconfig@8.2.0)(ts-node@10.9.1)(typescript@5.2.2):
     resolution: {integrity: sha512-BabizFdC3wBHhbI4kJh0VkQP9GkBfoHPydD0COMce1nJ1kJAB3F2TmJ/I7diULBKtmEWSwEbuN/KDtgnmUUVmw==}
     engines: {node: '>=v14.21.3'}
     peerDependencies:
@@ -4801,8 +4792,8 @@ packages:
     dependencies:
       '@types/node': 20.4.7
       cosmiconfig: 8.2.0
-      ts-node: 10.9.1(@types/node@18.17.6)(typescript@5.1.6)
-      typescript: 5.1.6
+      ts-node: 10.9.1(@types/node@20.5.7)(typescript@5.2.2)
+      typescript: 5.2.2
     dev: true
 
   /cosmiconfig@8.2.0:
@@ -5184,10 +5175,10 @@ packages:
     resolution: {integrity: sha512-Mq8egjnW2NSCkzEb/Az15/JnBI/Ryyl6Po0Y+0mABTFvOS6DAyUGRZqz1nyhu4QJmWWe0zaGs/ITIBeWkvCkGw==}
     engines: {node: ^14.14.0 || >=16.0.0}
     dependencies:
-      '@typescript-eslint/typescript-estree': 5.62.0(supports-color@9.4.0)(typescript@5.1.6)
+      '@typescript-eslint/typescript-estree': 5.62.0(supports-color@9.4.0)(typescript@5.2.2)
       ast-module-types: 5.0.0
       node-source-walk: 6.0.2
-      typescript: 5.1.6
+      typescript: 5.2.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5491,7 +5482,7 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-next@13.4.19(eslint@8.47.0)(typescript@5.1.6):
+  /eslint-config-next@13.4.19(eslint@8.47.0)(typescript@5.2.2):
     resolution: {integrity: sha512-WE8367sqMnjhWHvR5OivmfwENRQ1ixfNE9hZwQqNCsd+iM3KnuMc1V8Pt6ytgjxjf23D+xbesADv9x3xaKfT3g==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
@@ -5502,7 +5493,7 @@ packages:
     dependencies:
       '@next/eslint-plugin-next': 13.4.19
       '@rushstack/eslint-patch': 1.3.3
-      '@typescript-eslint/parser': 6.0.0(eslint@8.47.0)(typescript@5.1.6)
+      '@typescript-eslint/parser': 6.0.0(eslint@8.47.0)(typescript@5.2.2)
       eslint: 8.47.0
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.6.0(@typescript-eslint/parser@6.0.0)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.28.1)(eslint@8.47.0)
@@ -5510,7 +5501,7 @@ packages:
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.47.0)
       eslint-plugin-react: 7.33.2(eslint@8.47.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.47.0)
-      typescript: 5.1.6
+      typescript: 5.2.2
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
       - supports-color
@@ -5579,7 +5570,7 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 6.0.0(eslint@8.47.0)(typescript@5.1.6)
+      '@typescript-eslint/parser': 6.0.0(eslint@8.47.0)(typescript@5.2.2)
       debug: 3.2.7
       eslint: 8.47.0
       eslint-import-resolver-node: 0.3.9
@@ -5598,7 +5589,7 @@ packages:
       '@typescript-eslint/parser':
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 6.0.0(eslint@8.47.0)(typescript@5.1.6)
+      '@typescript-eslint/parser': 6.0.0(eslint@8.47.0)(typescript@5.2.2)
       array-includes: 3.1.6
       array.prototype.findlastindex: 1.2.2
       array.prototype.flat: 1.3.1
@@ -8932,7 +8923,7 @@ packages:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
     dev: true
 
-  /netlify-cli@16.1.0(@types/node@18.17.6):
+  /netlify-cli@16.1.0(@types/node@20.5.7):
     resolution: {integrity: sha512-HfjbhtwZXTOXWYtokATlNZzfj0MVqRqmnmhT77r4GRT8Ar7xCar6mLSEE1NEQxiVEwrT+U0MICzecs+9FGwXIg==}
     engines: {node: '>=16.16.0'}
     hasBin: true
@@ -8940,7 +8931,7 @@ packages:
     dependencies:
       '@bugsnag/js': 7.20.2
       '@fastify/static': 6.10.2
-      '@netlify/build': 29.20.4(@types/node@18.17.6)(debug@4.3.4)
+      '@netlify/build': 29.20.4(@types/node@20.5.7)(debug@4.3.4)
       '@netlify/build-info': 7.7.3
       '@netlify/config': 20.8.0
       '@netlify/edge-bundler': 8.17.1
@@ -9988,7 +9979,7 @@ packages:
     dependencies:
       lilconfig: 2.1.0
       postcss: 8.4.28
-      ts-node: 10.9.1(@types/node@18.17.6)(typescript@5.1.6)
+      ts-node: 10.9.1(@types/node@20.5.7)(typescript@5.2.2)
       yaml: 2.3.1
     dev: true
 
@@ -10213,7 +10204,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 18.17.6
+      '@types/node': 20.5.7
       long: 5.2.3
     dev: true
 
@@ -12744,20 +12735,20 @@ packages:
     resolution: {integrity: sha512-AqTiAOLcj85xS7vQ8QkAV41hPDIJ71XJB4RCUrzo/1GM2CQwhkJGaf9Hgr7BOugMRpgGUrqRg/DrBDl4H40+8g==}
     dev: true
 
-  /ts-api-utils@1.0.2(typescript@5.1.6):
+  /ts-api-utils@1.0.2(typescript@5.2.2):
     resolution: {integrity: sha512-Cbu4nIqnEdd+THNEsBdkolnOXhg0I8XteoHaEKgvsxpsbWda4IsUut2c187HxywQCvveojow0Dgw/amxtSKVkQ==}
     engines: {node: '>=16.13.0'}
     peerDependencies:
       typescript: '>=4.2.0'
     dependencies:
-      typescript: 5.1.6
+      typescript: 5.2.2
     dev: true
 
   /ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-node@10.9.1(@types/node@18.17.6)(typescript@5.1.6):
+  /ts-node@10.9.1(@types/node@20.5.7)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -12776,14 +12767,14 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 18.17.6
+      '@types/node': 20.5.7
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.1.6
+      typescript: 5.2.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -12808,14 +12799,14 @@ packages:
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
-  /tsutils@3.21.0(typescript@5.1.6):
+  /tsutils@3.21.0(typescript@5.2.2):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
     dependencies:
       tslib: 1.14.1
-      typescript: 5.1.6
+      typescript: 5.2.2
     dev: true
 
   /tunnel-agent@0.6.0:
@@ -12927,8 +12918,8 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
-  /typescript@5.1.6:
-    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+  /typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -12983,7 +12974,7 @@ packages:
       '@types/concat-stream': 2.0.0
       '@types/debug': 4.1.8
       '@types/is-empty': 1.2.1
-      '@types/node': 18.17.6
+      '@types/node': 18.0.0
       '@types/unist': 2.0.7
       concat-stream: 2.0.0
       debug: 4.3.4(supports-color@9.4.0)
