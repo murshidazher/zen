@@ -14,7 +14,7 @@ export const siteConfig = {
   }),
   locale: "en_US",
   description:
-    "Murshid is a creative developer from the south with five years of expertise in developing and creating brands spanning from consumer apps to enterprise-level solutions",
+    "Murshid is a creative developer with expertise in crafting enterprise grade applications.",
   mainNav: [
     {
       title: "Home",

@@ -97,6 +97,9 @@ devDependencies:
   '@newlevelup/remark-config':
     specifier: ~1.0.9
     version: 1.0.9(prettier@3.0.0)(remark-cli@11.0.0)(remark@14.0.3)
+  '@newlevelup/renovate-config':
+    specifier: ~1.2.0
+    version: 1.2.0
   '@newlevelup/syncpack-config':
     specifier: 1.2.0
     version: 1.2.0(syncpack@11.2.1)
@@ -1678,6 +1681,10 @@ packages:
     transitivePeerDependencies:
       - prettier
       - supports-color
+    dev: true
+
+  /@newlevelup/renovate-config@1.2.0:
+    resolution: {integrity: sha512-/TVHwTiPqjsgcu8Rn/7wZWjxzZA45PziSUU1dEz9UFG1fEEV/W7r2qzFZDImO3ckkzfpMhPcTYSfr7j2QAkcbA==}
     dev: true
 
   /@newlevelup/syncpack-config@1.2.0(syncpack@11.2.1):

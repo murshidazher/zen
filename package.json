@@ -52,6 +52,7 @@
     "@newlevelup/commitlint-config": "1.1.13",
     "@newlevelup/editor-config": "~1.0.1",
     "@newlevelup/remark-config": "~1.0.9",
+    "@newlevelup/renovate-config": "~1.2.0",
     "@newlevelup/syncpack-config": "1.2.0",
     "@radix-ui/react-dialog": "^1.0.4",
     "@tailwindcss/typography": "^0.5.9",
@@ -83,6 +84,14 @@
   "remarkConfig": {
     "plugins": [
       "@newlevelup/remark-config"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "@newlevelup"
+    ],
+    "baseBranches": [
+      "main"
     ]
   }
 }
