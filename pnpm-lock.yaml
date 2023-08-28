@@ -12,8 +12,8 @@ dependencies:
     specifier: 1.1.0
     version: 1.1.0
   '@netlify/functions':
-    specifier: 2.0.0
-    version: 2.0.0
+    specifier: 2.0.2
+    version: 2.0.2
   '@radix-ui/react-avatar':
     specifier: 1.0.3
     version: 1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
@@ -1373,11 +1373,11 @@ packages:
       is-promise: 4.0.0
     dev: false
 
-  /@netlify/functions@2.0.0:
-    resolution: {integrity: sha512-YJc8LikRByxcQ731cZo75TS7nu82baG02sy632AMNmtDLBP6QsRHN4R1rDjjpge24R0cMchLqbifnVNggs4FWQ==}
+  /@netlify/functions@2.0.2:
+    resolution: {integrity: sha512-goWRtaIPUK/q47qLYtfGGj7HgJIRaT0snw7zZ0yeoNTfQfCRwQwvRrMAsXkCsCtq2N2Oo81L26SpkMxEQMk9hg==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@netlify/serverless-functions-api': 1.7.0
+      '@netlify/serverless-functions-api': 1.7.3
       is-promise: 4.0.0
     dev: false
 
@@ -1526,6 +1526,11 @@ packages:
       '@netlify/local-functions-proxy-win32-x64': 1.1.1
     dev: true
 
+  /@netlify/node-cookies@0.1.0:
+    resolution: {integrity: sha512-OAs1xG+FfLX0LoRASpqzVntVV/RpYkgpI0VrUnw2u0Q1qiZUzcPffxRK8HF3gc4GjuhG5ahOEMJ9bswBiZPq0g==}
+    engines: {node: ^14.16.0 || >=16.0.0}
+    dev: false
+
   /@netlify/open-api@2.20.0:
     resolution: {integrity: sha512-IJ55rIOsPTxpqPzGFLQ9KSRjaHfSEAD5trlJCIWW7AYYiWX5TFnBNPPvflC0KNHTC7eEbTBQbHXfsxqzIGSMXQ==}
     dev: true
@@ -1552,6 +1557,15 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       urlpattern-polyfill: 8.0.2
+    dev: true
+
+  /@netlify/serverless-functions-api@1.7.3:
+    resolution: {integrity: sha512-n6/7cJlSWvvbBlUOEAbkGyEld80S6KbG/ldQI9OhLfe1lTatgKmrTNIgqVNpaWpUdTgP2OHWFjmFBzkxxBWs5w==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    dependencies:
+      '@netlify/node-cookies': 0.1.0
+      urlpattern-polyfill: 8.0.2
+    dev: false
 
   /@netlify/zip-it-and-ship-it@9.15.1(supports-color@9.4.0):
     resolution: {integrity: sha512-gYEZ8Rrl9dtME3syR3Uj+JabEWvEiFUKO0/84joriVIfWGrYPzu9WKBqOjy+huWIAYEWPbEJRmxFEJrYOmhDgw==}
@@ -6191,6 +6205,7 @@ packages:
 
   /file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: true
 
   /filename-reserved-regex@3.0.0:
