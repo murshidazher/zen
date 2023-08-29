@@ -87,7 +87,7 @@ dependencies:
 devDependencies:
   '@ianvs/prettier-plugin-sort-imports':
     specifier: 4.1.0
-    version: 4.1.0(prettier@3.0.2)
+    version: 4.1.0(prettier@3.0.3)
   '@newlevelup/commitlint-config':
     specifier: 1.1.13
     version: 1.1.13(@commitlint/cli@17.7.1)
@@ -96,7 +96,7 @@ devDependencies:
     version: 1.0.1
   '@newlevelup/remark-config':
     specifier: 1.0.9
-    version: 1.0.9(prettier@3.0.2)(remark-cli@11.0.0)(remark@14.0.3)
+    version: 1.0.9(prettier@3.0.3)(remark-cli@11.0.0)(remark@14.0.3)
   '@newlevelup/syncpack-config':
     specifier: 1.2.0
     version: 1.2.0(syncpack@11.2.1)
@@ -149,8 +149,8 @@ devDependencies:
     specifier: 8.4.29
     version: 8.4.29
   prettier:
-    specifier: 3.0.2
-    version: 3.0.2
+    specifier: 3.0.3
+    version: 3.0.3
   remark:
     specifier: 14.0.3
     version: 14.0.3
@@ -1060,7 +1060,7 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@ianvs/prettier-plugin-sort-imports@4.1.0(prettier@3.0.2):
+  /@ianvs/prettier-plugin-sort-imports@4.1.0(prettier@3.0.3):
     resolution: {integrity: sha512-IAXeTLU24k6mRPa6mFbW1qZJ/j0m3OeH44wyijWyr+YqqdNtBnfHxAntOAATS9iDfrT01NesKGsdzqnXdDQa/A==}
     peerDependencies:
       '@vue/compiler-sfc': '>=3.0.0'
@@ -1074,7 +1074,7 @@ packages:
       '@babel/parser': 7.22.10
       '@babel/traverse': 7.22.10
       '@babel/types': 7.22.10
-      prettier: 3.0.2
+      prettier: 3.0.3
       semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
@@ -1600,7 +1600,7 @@ packages:
     requiresBuild: true
     dev: true
 
-  /@newlevelup/remark-config@1.0.9(prettier@3.0.2)(remark-cli@11.0.0)(remark@14.0.3):
+  /@newlevelup/remark-config@1.0.9(prettier@3.0.3)(remark-cli@11.0.0)(remark@14.0.3):
     resolution: {integrity: sha512-BcdkjRy78EoHEvA7r5MurdUHEDwVGBfKhApZPVB3w9+aaOgb1OI0XcABIOl7Bpc4AYnDXBS3L9iTnuC7KTAWIQ==}
     peerDependencies:
       remark: 14.0.3
@@ -1617,7 +1617,7 @@ packages:
       remark-preset-lint-consistent: 5.1.2
       remark-preset-lint-markdown-style-guide: 5.1.3
       remark-preset-lint-recommended: 6.1.3
-      remark-preset-prettier: 2.0.1(prettier@3.0.2)
+      remark-preset-prettier: 2.0.1(prettier@3.0.3)
       remark-toc: 8.0.1
       remark-validate-links: 12.1.1
     transitivePeerDependencies:
@@ -10080,8 +10080,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier@3.0.2:
-    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+  /prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -11290,13 +11290,13 @@ packages:
       - supports-color
     dev: true
 
-  /remark-preset-prettier@2.0.1(prettier@3.0.2):
+  /remark-preset-prettier@2.0.1(prettier@3.0.3):
     resolution: {integrity: sha512-1+cZaM080zTlhQIvZDOj7SFWvW9zevfxsLjTZspLEsBYivMDwCyTodvNvaZLc9p5dUSMik/BjMFKicfhZXh7qg==}
     engines: {node: '>=14.8'}
     peerDependencies:
       prettier: '>=1.0.0'
     dependencies:
-      prettier: 3.0.2
+      prettier: 3.0.3
     dev: true
 
   /remark-stringify@10.0.3:
