@@ -6,6 +6,7 @@ export const siteConfig = {
   name: "Murshid Azher",
   title: "Murshid Azher — Senior Software Engineer at :Different",
   url: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "/").href,
+  googleAnalytics: "UA-176773451-1",
   license: "https://github.com/murshidazher/zen/blob/main/LICENSE",
   ogImage: getCldImageUrl({
     transformations:
@@ -26,15 +27,6 @@ export const siteConfig = {
     medium: "https://medium.com/@imurshid",
     resume: "https://read.cv/murshidazher",
   },
-  keywords: [
-    "Murshid Azher",
-    "Murshid",
-    "Azher",
-    "Murshid Azher Developer",
-    "Engineer",
-    "Software Engineer",
-    "Sri Lankan Developer",
-    "Murshid Azher's Portfolio",
-    "Contact Murshid Azher",
-  ],
+  keywords:
+    "Product Design, UX Design, UI Design, Front-end, Web Development, Visual Identity, Back-end, Software, TypeScript Developer, Technical Leadership, Sri Lankan Developer, Portfolio, Contact, Murshid Azher, Murshid, Azher, Automation, Typography, Software Engineer, Developer",
 };
