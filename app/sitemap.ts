@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 
+import { siteConfig } from "@/config/site";
+
 /**
  * Generates the sitemap which help search engine crawlers crawl your site more efficiently.
  *
@@ -10,7 +12,7 @@ import type { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "").href,
+      url: siteConfig.url,
       lastModified: new Date(),
     },
   ];

@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 
+import { siteConfig } from "@/config/site";
+
 /**
  * Generates a robots.txt file which tells the search engine crawlers
  * which pages or files the crawler can or can't request from your site.
@@ -14,7 +16,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: new URL("/sitemap.xml", process.env.NEXT_PUBLIC_SITE_URL ?? "")
-      .href,
+    sitemap: new URL("/sitemap.xml", siteConfig.url).href,
   };
 }
