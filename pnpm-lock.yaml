@@ -66,8 +66,8 @@ dependencies:
     specifier: 7.45.4
     version: 7.45.4(react@18.2.0)
   react-wrap-balancer:
-    specifier: 1.0.0
-    version: 1.0.0(react@18.2.0)
+    specifier: 1.1.0
+    version: 1.1.0(react@18.2.0)
   sharp:
     specifier: 0.32.5
     version: 0.32.5
@@ -10374,8 +10374,8 @@ packages:
       react: 18.2.0
       tslib: 2.6.2
 
-  /react-wrap-balancer@1.0.0(react@18.2.0):
-    resolution: {integrity: sha512-yjDH+I8WGyDfh95gKhX/6ckfSBAltwQkxiYxtLPlyIRQNUVSjvz1uHR6Hpy+zHyOkJQw6GEC5RPglA41QXvzyw==}
+  /react-wrap-balancer@1.1.0(react@18.2.0):
+    resolution: {integrity: sha512-EhF3jOZm5Fjx+Cx41e423qOv2c2aOvXAtym2OHqrGeMUnwERIyNsRBgnfT3plB170JmuYvts8K2KSPEIerKr5A==}
     peerDependencies:
       react: '>=16.8.0 || ^17.0.0 || ^18'
     dependencies:
