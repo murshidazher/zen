@@ -21,14 +21,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url ?? ""),
-  keywords: [
-    "Murshid Azher",
-    "Murshid",
-    "Azher",
-    "Murshid Azher Developer",
-    "Engineer",
-    "Sri Lankan Developer",
-  ],
+  keywords: siteConfig.keywords,
   authors: [
     {
       name: "murshidazher",

@@ -26,4 +26,15 @@ export const siteConfig = {
     medium: "https://medium.com/@imurshid",
     resume: "https://read.cv/murshidazher",
   },
+  keywords: [
+    "Murshid Azher",
+    "Murshid",
+    "Azher",
+    "Murshid Azher Developer",
+    "Engineer",
+    "Software Engineer",
+    "Sri Lankan Developer",
+    "Murshid Azher's Portfolio",
+    "Contact Murshid Azher",
+  ],
 };
