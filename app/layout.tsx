@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+
 import type { Metadata } from "next";
 
 import { siteConfig } from "@/config/site";
@@ -20,7 +21,14 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url ?? ""),
-  keywords: ["Murshid Azher", "Developer"],
+  keywords: [
+    "Murshid Azher",
+    "Murshid",
+    "Azher",
+    "Murshid Azher Developer",
+    "Engineer",
+    "Sri Lankan Developer",
+  ],
   authors: [
     {
       name: "murshidazher",
@@ -71,7 +79,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
       <html lang={siteConfig.locale} suppressHydrationWarning>
-        <head />
         <body
           className={cn(
             "bg-background min-h-screen font-sans antialiased",

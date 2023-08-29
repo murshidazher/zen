@@ -9,7 +9,7 @@ import { SiteNav } from "@/components/site-nav";
 
 export default function IndexPage() {
   return (
-    <main className="mx-4 my-24 max-w-[40rem] sm:m-[11%] lg:m-[180px]">
+    <div className="mx-4 my-24 max-w-[40rem] sm:m-[11%] lg:m-[180px]">
       <OverlayHighlights />
       <Landing />
       <Content />
@@ -21,6 +21,6 @@ export default function IndexPage() {
       </div>
       <SiteNav className="xs:mb-4 mb-0 pl-6" />
       <Footer />
-    </main>
+    </div>
   );
 }

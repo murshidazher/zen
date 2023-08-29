@@ -1,12 +1,14 @@
-import Script from "next/script";
+import type { Person } from "schema-dts";
 
 import { siteConfig } from "@/config/site";
+import { toJsonLd } from "@/lib/utils";
 import { getHeadShotUrl } from "@/components/landing";
 
-const profileJsonLd = {
-  "@context": "https://json-ld.org/contexts/person.jsonld",
+const profileJsonLd = toJsonLd<Person>({
+  "@context": "https://schema.org",
   "@type": "Person",
   name: siteConfig.name,
+  brand: ["Murshid Azher", ":Different"],
   jobTitle: "Senior Software Engineer",
   url: siteConfig.url,
   sameAs: [
@@ -20,7 +22,10 @@ const profileJsonLd = {
     "https://read.cv/murshidazher",
   ],
   image: getHeadShotUrl(),
-  alumniOf: "Stony Brook University, New York",
+  alumniOf: {
+    "@type": "EducationalOrganization",
+    alumni: "Stony Brook University, New York",
+  },
   birthPlace: {
     "@type": "Place",
     name: "Jeddah, Saudi Arabia",
@@ -38,23 +43,19 @@ const profileJsonLd = {
     name: "Sydney, Australia",
   },
   knowsLanguage: "English",
-  knowsAbout: ["Product Development", "Technical Leadership"],
+  knowsAbout: [
+    "Product Development",
+    "Software Development",
+    "Technical Leadership",
+  ],
   nationality: {
     "@type": "Country",
     name: "Sri Lanka",
   },
-};
+});
 
 const ProfileJsonLd = () => {
-  return (
-    <Script
-      id="app-ld-json"
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify(profileJsonLd, null, 2),
-      }}
-    />
-  );
+  return <div dangerouslySetInnerHTML={{ __html: profileJsonLd }} />;
 };
 
 export default ProfileJsonLd;

@@ -1,5 +1,5 @@
 import { sendEmail } from "@netlify/emails";
-import { Handler, builder } from "@netlify/functions";
+import { builder, Handler } from "@netlify/functions";
 
 import { getDate } from "./utils/get-date";
 

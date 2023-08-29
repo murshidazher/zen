@@ -1,4 +1,5 @@
-import { CxOptions, cx } from "class-variance-authority";
+import { cx, CxOptions } from "class-variance-authority";
+import type { Thing, WithContext } from "schema-dts";
 import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: CxOptions) {
@@ -45,3 +46,9 @@ export const convertArabicToRoman = (num: number): string => {
 
   return res;
 };
+
+export const toJsonLd = <T extends Thing>(
+  json: WithContext<T>
+): string => `<script type="application/ld+json">
+${JSON.stringify(json, null, 2)}
+</script>`;
