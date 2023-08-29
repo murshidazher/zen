@@ -28,5 +28,5 @@ export const siteConfig = {
     resume: "https://read.cv/murshidazher",
   },
   keywords:
-    "Product Design, UX Design, UI Design, Front-end, Web Development, Visual Identity, Back-end, Software, TypeScript Developer, Technical Leadership, Sri Lankan Developer, Portfolio, Contact, Murshid Azher, Murshid, Azher, Automation, Typography, Software Engineer, Developer",
+    "Murshid Azher, Portfolio, Sri Lankan Developer, Contact, Automation, Typography, Software Engineer, Developer, Product Design, UX Design, UI Design, Front-end, Web Development, Visual Identity, Back-end, Software, TypeScript Developer, Technical Leadership",
 };
