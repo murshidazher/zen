@@ -15,7 +15,7 @@ export const siteConfig = {
   }),
   locale: "en_US",
   description:
-    "Hey, I'm Murshid Azher — a seasoned engineer who specializes in the craft of delivering polished softwares and memorable user experiences. Currently working as a Senior Software Engineer at :Different.",
+    "Hey, I'm Murshid Azher — a seasoned engineer who specializes in the craft of delivering polished softwares and memorable user experiences.",
   links: {
     email: "hello@murshidazher.com",
     twitter: "https://twitter.com/murshidazher",
