@@ -14,6 +14,10 @@ import ContactFormDialog from "@/components/contact-form-dialog";
 import ProfileJsonLd from "@/components/profile-json-ld";
 import { ThemeProvider } from "@/components/theme-provider";
 
+/**
+ * Use the below link to test rich pages
+ * https://search.google.com/test/rich-results
+ */
 export const metadata: Metadata = {
   title: {
     default: siteConfig.title,
