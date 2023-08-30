@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url ?? ""),
+  alternates: {
+    canonical: new URL(siteConfig.url ?? "").href,
+  },
   keywords: splitString(siteConfig.keywords),
   authors: [
     {
@@ -76,6 +79,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
       <html lang={siteConfig.locale} suppressHydrationWarning>
+        <head />
         <body
           className={cn(
             "bg-background min-h-screen font-sans antialiased",
