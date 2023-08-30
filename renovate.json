@@ -4,10 +4,10 @@
     "config:base"
   ],
   "baseBranches": [
-    "main"
+    "develop"
   ],
   "packageRules": [{
-      "automerge": true,
+      "automerge": false,
       "matchUpdateTypes": [
         "minor",
         "patch",
