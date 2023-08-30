@@ -15,6 +15,9 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: [
+        "/404"
+      ]
     },
     sitemap: new URL("/sitemap.xml", siteConfig.url).href,
   };
