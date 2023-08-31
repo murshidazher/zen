@@ -49,8 +49,5 @@ export const convertArabicToRoman = (num: number): string => {
 
 export const splitString = (input: string): string[] => input.split(", ");
 
-export const toJsonLd = <T extends Thing>(
-  json: WithContext<T>
-): string => `<script type="application/ld+json">
-${JSON.stringify(json, null, 2)}
-</script>`;
+export const toJsonLd = <T extends Thing>(json: WithContext<T>): string =>
+  JSON.stringify(json, null, 2);
