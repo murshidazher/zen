@@ -1,7 +1,8 @@
+import Script from "next/script";
 import type { Person } from "schema-dts";
 
 import { siteConfig } from "@/config/site";
-import { toJsonLd } from "@/lib/utils";
+import { getCldImageUrl, toJsonLd } from "@/lib/utils";
 import { getHeadShotUrl } from "@/components/landing";
 
 const profileJsonLd = toJsonLd<Person>({
@@ -21,7 +22,11 @@ const profileJsonLd = toJsonLd<Person>({
     "https://medium.com/@imurshid",
     "https://read.cv/murshidazher",
   ],
-  image: getHeadShotUrl(),
+  image: getCldImageUrl({
+    transformations:
+      "f_webp,fl_awebp.progressive.progressive:semi,f_webp,fl_awebp,q_80",
+    path: "og-image.jpg",
+  }),
   alumniOf: {
     "@type": "EducationalOrganization",
     alumni: "Stony Brook University, New York",
@@ -55,7 +60,15 @@ const profileJsonLd = toJsonLd<Person>({
 });
 
 const ProfileJsonLd = () => {
-  return <div dangerouslySetInnerHTML={{ __html: profileJsonLd }} />;
+  return (
+    <Script
+      id="app-ld-json"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: profileJsonLd,
+      }}
+    />
+  );
 };
 
 export default ProfileJsonLd;
