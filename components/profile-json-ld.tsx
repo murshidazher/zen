@@ -1,15 +1,12 @@
-import Script from "next/script";
 import type { Person } from "schema-dts";
 
 import { siteConfig } from "@/config/site";
 import { getCldImageUrl, toJsonLd } from "@/lib/utils";
-import { getHeadShotUrl } from "@/components/landing";
 
-const profileJsonLd = toJsonLd<Person>({
+export const profileJsonLd = toJsonLd<Person>({
   "@context": "https://schema.org",
   "@type": "Person",
   name: siteConfig.name,
-  brand: ["Murshid Azher", ":Different"],
   jobTitle: "Senior Software Engineer",
   url: siteConfig.url,
   sameAs: [
@@ -27,10 +24,6 @@ const profileJsonLd = toJsonLd<Person>({
       "f_webp,fl_awebp.progressive.progressive:semi,f_webp,fl_awebp,q_80",
     path: "og-image.jpg",
   }),
-  alumniOf: {
-    "@type": "EducationalOrganization",
-    alumni: "Stony Brook University, New York",
-  },
   birthPlace: {
     "@type": "Place",
     name: "Jeddah, Saudi Arabia",
@@ -42,12 +35,30 @@ const profileJsonLd = toJsonLd<Person>({
   worksFor: {
     "@type": "Organization",
     name: ":Different",
+    sameAs: ["https://different.com.au/", "https://different.lk"],
   },
+  alumniOf: [
+    {
+      "@type": "CollegeOrUniversity",
+      name: "Stony Brook University, New York",
+      sameAs: "https://www.stonybrook.edu/",
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      name: "Buckinghamshire New University",
+      sameAs: "https://www.bucks.ac.uk/",
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      name: "University of Westminster, London",
+      sameAs: "https://www.westminster.ac.uk/",
+    },
+  ],
   workLocation: {
     "@type": "Place",
     name: "Sydney, Australia",
   },
-  knowsLanguage: "English",
+  knowsLanguage: ["English", "Sinhala", "Tamil"],
   knowsAbout: [
     "Product Development",
     "Software Development",
@@ -61,13 +72,9 @@ const profileJsonLd = toJsonLd<Person>({
 
 const ProfileJsonLd = () => {
   return (
-    <Script
-      id="app-ld-json"
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: profileJsonLd,
-      }}
-    />
+    <script type="application/ld+json" suppressHydrationWarning>
+      {profileJsonLd}
+    </script>
   );
 };
 
