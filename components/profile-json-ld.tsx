@@ -2,6 +2,7 @@ import type { Person } from "schema-dts";
 
 import { siteConfig } from "@/config/site";
 import { getCldImageUrl, toJsonLd } from "@/lib/utils";
+import VisuallyHidden from "@/components/ui/visually-hidden";
 
 /**
  * This won't be shown in Google's SERP since this schema is yet to be supported.
@@ -77,9 +78,12 @@ export const profileJsonLd = toJsonLd<Person>({
 
 const ProfileJsonLd = () => {
   return (
-    <script type="application/ld+json" suppressHydrationWarning>
-      {profileJsonLd}
-    </script>
+    <div
+      id="profile-metadata"
+      className="sr-only"
+      aria-hidden="true"
+      dangerouslySetInnerHTML={{ __html: profileJsonLd }}
+    />
   );
 };
 

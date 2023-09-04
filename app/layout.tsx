@@ -79,9 +79,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
       <html lang={siteConfig.locale} suppressHydrationWarning>
-        <head>
-          <ProfileJsonLd />
-        </head>
+        <head />
         <body
           className={cn(
             "bg-background min-h-screen font-sans antialiased",
@@ -99,6 +97,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <ToasterProvider />
           </ThemeProvider>
           <Analytics />
+          <ProfileJsonLd />
         </body>
       </html>
     </>
