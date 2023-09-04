@@ -54,9 +54,7 @@ export const Landing = ({
                     alt={`A photo of ${siteConfig.name}.`}
                   />
                   <AvatarFallback>
-                    <div>
-                      <Icons.logo className="h-16 w-16" />
-                    </div>
+                    <Icons.logo className="h-14 w-14" />
                   </AvatarFallback>
                 </Avatar>
                 <script type="application/ld+json" suppressHydrationWarning>
