@@ -32,7 +32,7 @@ export const SiteNav = ({ className }: SiteNavProps) => {
   return (
     <div
       className={cn(
-        "bottom-4 right-4 flex flex-row gap-1 sm:fixed sm:flex-col",
+        "social-links bottom-4 right-4 flex flex-row gap-1 sm:fixed sm:flex-col",
         className
       )}
     >
@@ -69,7 +69,8 @@ export const SiteNav = ({ className }: SiteNavProps) => {
           <Icons.resume />
         </Link>
       </Tooltip>
-      <div>
+
+      <div className="quick-links">
         <Tooltip content="Get in touch">
           <div>
             <ContactIcon />

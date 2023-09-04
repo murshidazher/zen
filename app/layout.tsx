@@ -1,7 +1,6 @@
 import "@/styles/globals.css";
 
 import type { Metadata } from "next";
-import Head from "next/head";
 
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/lib/fonts";
@@ -80,9 +79,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
       <html lang={siteConfig.locale} suppressHydrationWarning>
-        <Head>
+        <head>
           <ProfileJsonLd />
-        </Head>
+        </head>
         <body
           className={cn(
             "bg-background min-h-screen font-sans antialiased",
