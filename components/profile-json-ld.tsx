@@ -3,6 +3,11 @@ import type { Person } from "schema-dts";
 import { siteConfig } from "@/config/site";
 import { getCldImageUrl, toJsonLd } from "@/lib/utils";
 
+/**
+ * This won't be shown in Google's SERP since this schema is yet to be supported.
+ *
+ * Note: https://developers.google.com/search/docs/appearance/structured-data/search-gallery
+ */
 export const profileJsonLd = toJsonLd<Person>({
   "@context": "https://schema.org",
   "@type": "Person",
