@@ -57,9 +57,12 @@ export const Landing = ({
                     <Icons.logo className="h-14 w-14" />
                   </AvatarFallback>
                 </Avatar>
-                <script type="application/ld+json" suppressHydrationWarning>
-                  {headShotJsonLd}
-                </script>
+                <div
+                  id="headshot-metadata"
+                  className="sr-only"
+                  aria-hidden="true"
+                  dangerouslySetInnerHTML={{ __html: headShotJsonLd }}
+                />
               </div>
               <div className="pt-1.5">
                 <h1
