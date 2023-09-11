@@ -187,18 +187,9 @@ const ContactFormDialog = () => {
                 Cancel
                 <VisuallyHidden>Close</VisuallyHidden>
               </Button>
-              <Button
-                className="shadow-gradient"
-                size={"sm"}
-                type="submit"
-                disabled={form.formState.isSubmitted}
-              >
+              <Button className="shadow-gradient" size={"sm"} type="submit">
                 Send
-                {!form.formState.isSubmitted || !form.formState.isValid ? (
-                  <Icons.mailbox className="ml-2" />
-                ) : (
-                  <Icons.spinner className="ml-2 h-4 w-4" />
-                )}
+                <Icons.mailbox className="ml-2" />
                 <VisuallyHidden>Send</VisuallyHidden>
               </Button>
             </DialogFooter>
