@@ -50,6 +50,7 @@ const ContactFormDialog = () => {
 
   const form = useForm<ContactForm>({
     resolver: zodResolver(contactFormSchema),
+    mode: "onSubmit",
     defaultValues,
   });
 
@@ -193,7 +194,7 @@ const ContactFormDialog = () => {
                 disabled={form.formState.isSubmitted}
               >
                 Send
-                {!form.formState.isSubmitted ? (
+                {!form.formState.isSubmitted || !form.formState.isValid ? (
                   <Icons.mailbox className="ml-2" />
                 ) : (
                   <Icons.spinner className="ml-2 h-4 w-4" />
