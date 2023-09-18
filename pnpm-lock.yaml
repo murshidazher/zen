@@ -75,8 +75,8 @@ dependencies:
     specifier: 1.6.6
     version: 1.6.6
   sonner:
-    specifier: 0.7.1
-    version: 0.7.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: 0.7.4
+    version: 0.7.4(react-dom@18.2.0)(react@18.2.0)
   zod:
     specifier: 3.22.2
     version: 3.22.2
@@ -11980,8 +11980,8 @@ packages:
       atomic-sleep: 1.0.0
     dev: true
 
-  /sonner@0.7.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-awbVcBwV0xV5TN7kJEZv6Sx7Fi9JBL26vTn0FnBcf6YsyWKnyvz16I/jE6omCtBjd0/YXsPHJ//VuA5fvD2vEg==}
+  /sonner@0.7.4(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-xRVYOCTAxJge7hRGSwu7q+gIS9B2csuOZw8yNEaXe/qlncft5a7UmkttGNb4LOGu79rAB/GJ6JQbUMpJNf51Nw==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
