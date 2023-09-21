@@ -137,8 +137,8 @@ devDependencies:
     specifier: 3.13.0
     version: 3.13.0(tailwindcss@3.3.3)
   netlify-cli:
-    specifier: 16.3.3
-    version: 16.3.3(@types/node@20.6.3)
+    specifier: 16.4.2
+    version: 16.4.2(@types/node@20.6.3)
   next-secure-headers:
     specifier: 2.2.0
     version: 2.2.0
@@ -1183,8 +1183,8 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /@netlify/build@29.21.0(@types/node@20.6.3)(debug@4.3.4):
-    resolution: {integrity: sha512-LjfkVg4l8KNrAKGFntY7XD8TFJd/2FLc4gQHQ4j6z10WyxyyeeaR4dcyPoi04m5YwmokN7yFZm4DTTUAlL1M+g==}
+  /@netlify/build@29.21.1(@types/node@20.6.3)(debug@4.3.4):
+    resolution: {integrity: sha512-9twzYq+X8nz16sttkjCB8F8nZIMVspa40P2u3p1h0SWwxk2zq4g3cd8QlZOaO1sfcKQDzzpQkvu+jQ06j2AMfw==}
     engines: {node: ^14.16.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -9307,15 +9307,15 @@ packages:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
     dev: true
 
-  /netlify-cli@16.3.3(@types/node@20.6.3):
-    resolution: {integrity: sha512-tIjkG1PuYSTrrN0JFYvyuHDYx2/W5VGbIz/6/1QFB63ZM2ZInkCspGbotjEEsZxNymrp1XDuuBBHawbBff6sIg==}
+  /netlify-cli@16.4.2(@types/node@20.6.3):
+    resolution: {integrity: sha512-17ygfQJ7HhE+E9zn6aVUYctj+j8Js/ozNqlLbNF4/AGviCmS7phX5FdECKMbFSwC8jdHB12L9mNVfiqYGLPquw==}
     engines: {node: '>=16.16.0'}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@bugsnag/js': 7.20.2
       '@fastify/static': 6.10.2
-      '@netlify/build': 29.21.0(@types/node@20.6.3)(debug@4.3.4)
+      '@netlify/build': 29.21.1(@types/node@20.6.3)(debug@4.3.4)
       '@netlify/build-info': 7.8.0
       '@netlify/config': 20.9.0
       '@netlify/edge-bundler': 8.19.1
@@ -9388,7 +9388,7 @@ packages:
       netlify: 13.1.10
       netlify-headers-parser: 7.1.2
       netlify-redirect-parser: 14.2.0
-      netlify-redirector: 0.4.0
+      netlify-redirector: 0.5.0
       node-fetch: 2.6.12
       node-version-alias: 3.4.1
       ora: 6.3.1
@@ -9455,8 +9455,8 @@ packages:
       toml: 3.0.0
     dev: true
 
-  /netlify-redirector@0.4.0:
-    resolution: {integrity: sha512-ssD+V9o2DD9VnilOYC+34i07IrlY8XDsh5mN+qLYA4MxCpdALKXFICcz1KzsHZabuIS5XsF1VP/HzDyx5ubJ2g==}
+  /netlify-redirector@0.5.0:
+    resolution: {integrity: sha512-4zdzIP+6muqPCuE8avnrgDJ6KW/2+UpHTRcTbMXCIRxiRmyrX+IZ4WSJGZdHPWF3WmQpXpy603XxecZ9iygN7w==}
     dev: true
 
   /netlify@13.1.10:
