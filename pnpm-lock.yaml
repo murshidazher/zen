@@ -12,8 +12,8 @@ dependencies:
     specifier: 1.1.0
     version: 1.1.0
   '@netlify/functions':
-    specifier: 2.0.2
-    version: 2.0.2
+    specifier: 2.1.0
+    version: 2.1.0
   '@radix-ui/react-avatar':
     specifier: 1.0.3
     version: 1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)
@@ -1394,8 +1394,8 @@ packages:
       is-promise: 4.0.0
     dev: false
 
-  /@netlify/functions@2.0.2:
-    resolution: {integrity: sha512-goWRtaIPUK/q47qLYtfGGj7HgJIRaT0snw7zZ0yeoNTfQfCRwQwvRrMAsXkCsCtq2N2Oo81L26SpkMxEQMk9hg==}
+  /@netlify/functions@2.1.0:
+    resolution: {integrity: sha512-QWuyj1Q6z6Cqcq3qCcOB75nxjYOxlNmv/d9/nnX4asSRQcWhM/ehXl/KDL6Sl9aufMRe6uQY10s6i9zCDNMRjg==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@netlify/serverless-functions-api': 1.7.3
