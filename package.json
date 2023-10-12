@@ -48,7 +48,7 @@
     "zustand": "4.4.3"
   },
   "devDependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "4.1.0",
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
     "@newlevelup/commitlint-config": "1.1.14",
     "@newlevelup/editor-config": "1.0.1",
     "@newlevelup/remark-config": "1.0.9",
