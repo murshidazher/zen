@@ -23,33 +23,33 @@ export const Content = () => {
                 from planning to delivery using a data-driven approach.
               </p>
               <p>
-                For the past 5 years, I&apos;ve collaborated with a diverse
+                For the past 6 years, I&apos;ve collaborated with a diverse
                 range of companies, ranging from startups to well-established
                 corporations.
               </p>
             </Section>
             <Section title="Work">
               <p>
-                I currently work as a <em>Senior Software Engineer</em> at&nbsp;
-                <Link href="https://different.com.au/">:Different</Link>, a
-                property management as a service which helps you automate and
-                scale your rent rolls
-                <Footnote index={1} />.
+                I currently work as an <em>Observability Engineer</em> at&nbsp;
+                <Link href="https://ivedha.com/">iVedha</Link>, a firm renowned
+                for its expertise in delivering cutting-edge software-driven
+                cloud services and solutions to facilitate enterprises in their
+                digital transformation needs.
               </p>
               <p>
-                Although my primary focus at :Different predominantly revolves
-                around pushing new product features
-                <Footnote index={2} />, my recent endeavors have directed me
-                more towards the realms of people management and technical
-                leadership
-                <Footnote index={3} />.
+                My primary focus at :iVedha predominantly revolves around&nbsp;
+                <em>Site Reliability</em>, with a major emphasis on enhancing
+                logging and monitoring, automating application onboarding,
+                streamlining incident remediation through automation,
+                implementing predictive anomaly detection, and other related
+                tasks.
               </p>
               <p>
-                Prior to joining :Different in 2021 — I&apos;ve spent couple of
+                Prior to joining iVedha in 2023 — I&apos;ve spent couple of
                 years working at&nbsp;
-                <Link href="https://atera.io/">Atera</Link>, a creative agency,
-                where I worked with many incredible clients and helped them in
-                transforming brands & ideas into memorable experiences.
+                <Link href="https://different.com.au/">:Different</Link>, a
+                property management as a service, where I worked with many
+                incredible talents to automate and scale rent rolls.
               </p>
               <p>
                 If you need to know more about my work experiences,&nbsp;
@@ -68,7 +68,7 @@ export const Content = () => {
               <p>
                 When I&apos;m not pushing pixels, you might find me tuning into
                 podcasts
-                <Footnote index={4} />, enjoying some quality time cuddling with
+                <Footnote index={1} />, enjoying some quality time cuddling with
                 my cats or hanging out with friends and family.
               </p>
             </Section>
@@ -77,7 +77,7 @@ export const Content = () => {
                 In 2023, I graduated from the University of Westminster, London
                 with a Master of Science in&nbsp;
                 <em>Advanced Software Engineering</em>
-                <Footnote index={5} />.
+                <Footnote index={2} />.
               </p>
 
               <p>
