@@ -13,7 +13,7 @@ export const siteConfig = {
       "f_webp,fl_awebp.progressive.progressive:semi,f_webp,fl_awebp,q_80",
     path: "og-image.jpg",
   }),
-  locale: "en_US",
+  locale: "en",
   description:
     "Hey, I'm Murshid Azher — a seasoned engineer who specializes in the craft of delivering polished softwares and memorable user experiences.",
   links: {
