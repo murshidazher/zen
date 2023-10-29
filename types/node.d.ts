@@ -3,7 +3,7 @@ declare global {
     interface ProcessEnv {
       NEXT_PUBLIC_SITE_URL: string;
       NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: string;
-      NODE_ENV: "production" | "dev" | "test";
+      NODE_ENV: "production" | "development" | "test";
     }
   }
 }
