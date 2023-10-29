@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
+    "build": "NODE_ENV=production next build",
+    "dev": "NODE_ENV=development next dev",
     "dev:lambda": "netlify dev",
     "format": "npm-run-all -s format:*",
     "format:fix": "npm-run-all -s lint:fix lint:fix:*",
