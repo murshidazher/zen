@@ -4,7 +4,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "Murshid Azher",
-  title: "Murshid Azher — Senior Software Engineer at :Different",
+  title: "Murshid Azher — Observability Engineer at iVedha",
   url: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "/").href,
   googleAnalytics: "UA-176773451-1",
   license: "https://github.com/murshidazher/zen/blob/main/LICENSE",

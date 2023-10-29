@@ -13,7 +13,7 @@ export const profileJsonLd = toJsonLd<Person>({
   "@context": "https://schema.org",
   "@type": "Person",
   name: siteConfig.name,
-  jobTitle: "Senior Software Engineer",
+  jobTitle: "Observability Engineer",
   url: siteConfig.url,
   sameAs: [
     "https://twitter.com/murshidazher",
@@ -40,8 +40,8 @@ export const profileJsonLd = toJsonLd<Person>({
   gender: "Male",
   worksFor: {
     "@type": "Organization",
-    name: ":Different",
-    sameAs: ["https://different.com.au/", "https://different.lk"],
+    name: "iVedha",
+    sameAs: ["https://ivedha.com/"],
   },
   alumniOf: [
     {
@@ -62,7 +62,7 @@ export const profileJsonLd = toJsonLd<Person>({
   ],
   workLocation: {
     "@type": "Place",
-    name: "Sydney, Australia",
+    name: "Toronto, Canada",
   },
   knowsLanguage: ["English", "Sinhala", "Tamil"],
   knowsAbout: [
