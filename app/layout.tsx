@@ -36,6 +36,12 @@ export const metadata: Metadata = {
       url: siteConfig.url,
     },
   ],
+  robots: {
+    googleBot: {
+      index: true,
+      follow: true
+    }
+  },
   creator: "murshidazher",
   openGraph: {
     type: "website",
