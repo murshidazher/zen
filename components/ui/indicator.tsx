@@ -5,7 +5,6 @@ interface IndicatorProps extends React.HTMLAttributes<HTMLSpanElement> {}
 export function Indicator({ className }: IndicatorProps) {
   return (
     <span
-      aria-label="location-indicator"
       className={cn(
         "absolute right-0 top-1 flex h-3 w-3 animate-bounce items-center justify-center",
         className
