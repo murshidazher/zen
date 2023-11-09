@@ -12,8 +12,8 @@ dependencies:
     specifier: 1.1.0
     version: 1.1.0
   '@netlify/functions':
-    specifier: 2.3.0
-    version: 2.3.0
+    specifier: 2.4.0
+    version: 2.4.0
   '@radix-ui/react-avatar':
     specifier: 1.0.4
     version: 1.0.4(@types/react-dom@18.2.15)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)
@@ -1608,11 +1608,11 @@ packages:
       is-promise: 4.0.0
     dev: false
 
-  /@netlify/functions@2.3.0:
-    resolution: {integrity: sha512-E3kzXPWMP/r1rAWhjTaXcaOT47dhEvg/eQUJjRLhD9Zzp0WqkdynHr+bqff4rFNv6tuXrtFZrpbPJFKHH0c0zw==}
+  /@netlify/functions@2.4.0:
+    resolution: {integrity: sha512-dIqhdj5u4Lu/8qbYwtYpn8NfvIyPHbSTV2lAP4ocL+iwC9As06AXT0wa/xOpO2vRWJa0IMxdZaqCPnkyHlHiyg==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@netlify/serverless-functions-api': 1.9.0
+      '@netlify/serverless-functions-api': 1.11.0
       is-promise: 4.0.0
     dev: false
 
@@ -1789,8 +1789,8 @@ packages:
       urlpattern-polyfill: 8.0.2
     dev: true
 
-  /@netlify/serverless-functions-api@1.9.0:
-    resolution: {integrity: sha512-Jq4uk1Mwa5vyxImupJYXPP+I5yYcp3PtguvXtJRutKdm9DPALXfZVtCQzBWMNdZiqVWCM3La9hvaBsPjSMfeug==}
+  /@netlify/serverless-functions-api@1.11.0:
+    resolution: {integrity: sha512-3splAsr2CekL7VTwgo6yTvzD2+f269/s+TJafYazonqMNNo31yzvFxD5HpLtni4DNE1ppymVKZ4X/rLN3yl0vQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       '@netlify/node-cookies': 0.1.0
