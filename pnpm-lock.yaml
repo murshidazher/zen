@@ -137,8 +137,8 @@ devDependencies:
     specifier: 3.13.0
     version: 3.13.0(tailwindcss@3.3.5)
   netlify-cli:
-    specifier: 17.6.0
-    version: 17.6.0(@types/node@20.9.2)
+    specifier: 17.7.0
+    version: 17.7.0(@types/node@20.9.2)
   next-secure-headers:
     specifier: 2.2.0
     version: 2.2.0
@@ -274,7 +274,7 @@ packages:
     resolution: {integrity: sha512-0pYVBnDKZO2fnSPCrgM/6WMc7eS20Fbok+0r88fp+YtWVLZrp4CkafFGIp+W0VKw4a22sgebPT99y+FDNMdP4w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.23.0
+      '@babel/types': 7.23.3
 
   /@babel/helper-module-transforms@7.23.0(@babel/core@7.23.2):
     resolution: {integrity: sha512-WhDWw1tdrlT0gMgUJSlX0IQvoO1eN279zrAUbVB+KpV2c3Tylz8+GnKOLllCS6Z/iZQEyVYxhZVUdPTqs2YYPw==}
@@ -293,7 +293,7 @@ packages:
     resolution: {integrity: sha512-n0H99E/K+Bika3++WNL17POvo4rKWZ7lZEp1Q+fStVbUi8nxPQEBOlTmCOxW/0JsS56SKKQ+ojAe2pHKJHN35w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.23.0
+      '@babel/types': 7.23.3
 
   /@babel/helper-split-export-declaration@7.22.6:
     resolution: {integrity: sha512-AsUnxuLhRYsisFiaJwvp1QF+I3KjD5FOxut14q/GzovUe6orHLesW2C7d754kRm53h5gqrz6sFl6sxc4BVtE/g==}
@@ -319,7 +319,7 @@ packages:
     dependencies:
       '@babel/template': 7.22.15
       '@babel/traverse': 7.23.2
-      '@babel/types': 7.23.0
+      '@babel/types': 7.23.3
     transitivePeerDependencies:
       - supports-color
 
@@ -350,7 +350,7 @@ packages:
     dependencies:
       '@babel/code-frame': 7.22.13
       '@babel/parser': 7.23.0
-      '@babel/types': 7.23.0
+      '@babel/types': 7.23.3
 
   /@babel/traverse@7.23.2:
     resolution: {integrity: sha512-azpe59SQ48qG6nu2CzcMLbxUudtN+dOM9kDbUqGq3HXUJRlo7i8fvPoxQUzYgLZ4cMVmuZgm8vvBpNeRhd6XSw==}
@@ -384,7 +384,6 @@ packages:
       '@babel/helper-string-parser': 7.22.5
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
-    dev: true
 
   /@bugsnag/browser@7.21.0:
     resolution: {integrity: sha512-mJ6r6SXpts+hdSnDNmTR35lZ+95BthqXpgBrDwquDCoY++zQ4OuzrkA/HZYD/rfpdSpgb7lO+AAlD7qrd9IylA==}
@@ -9650,8 +9649,8 @@ packages:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
     dev: true
 
-  /netlify-cli@17.6.0(@types/node@20.9.2):
-    resolution: {integrity: sha512-o51J6HAejvgpuneVuM5R3cqZDpsAwSL7BLfVkrrngp5Kn2O1bXEwUA2uwODDacUr5SZV5e2eICV15ffny7mQ3g==}
+  /netlify-cli@17.7.0(@types/node@20.9.2):
+    resolution: {integrity: sha512-BoACuuQuDMYxVwA8YfpTUGXOajUXpsWubdkHNcBlnaHQv2K0zU02wmLNOKqQdn+fjL+Q1dsFQXCeWiIxUDNexQ==}
     engines: {node: '>=18.14.0'}
     hasBin: true
     requiresBuild: true
