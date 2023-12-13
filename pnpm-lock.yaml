@@ -12,8 +12,8 @@ dependencies:
     specifier: 1.1.0
     version: 1.1.0
   '@netlify/functions':
-    specifier: 2.4.0
-    version: 2.4.0
+    specifier: 2.4.1
+    version: 2.4.1
   '@radix-ui/react-avatar':
     specifier: 1.0.4
     version: 1.0.4(@types/react-dom@18.2.17)(@types/react@18.2.38)(react-dom@18.2.0)(react@18.2.0)
@@ -1395,11 +1395,11 @@ packages:
       is-promise: 4.0.0
     dev: false
 
-  /@netlify/functions@2.4.0:
-    resolution: {integrity: sha512-dIqhdj5u4Lu/8qbYwtYpn8NfvIyPHbSTV2lAP4ocL+iwC9As06AXT0wa/xOpO2vRWJa0IMxdZaqCPnkyHlHiyg==}
+  /@netlify/functions@2.4.1:
+    resolution: {integrity: sha512-sRFYBaz6dJP1MdUtk/5QNmshhg5UDmB+DUssmH6v9WUG85MrwyExEfGfJA5eClXATjXm0coTvO5nLAlyCpK7QQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@netlify/serverless-functions-api': 1.11.0
+      '@netlify/serverless-functions-api': 1.12.3
       is-promise: 4.0.0
     dev: false
 
@@ -1568,14 +1568,6 @@ packages:
       execa: 6.1.0
     dev: true
 
-  /@netlify/serverless-functions-api@1.11.0:
-    resolution: {integrity: sha512-3splAsr2CekL7VTwgo6yTvzD2+f269/s+TJafYazonqMNNo31yzvFxD5HpLtni4DNE1ppymVKZ4X/rLN3yl0vQ==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    dependencies:
-      '@netlify/node-cookies': 0.1.0
-      urlpattern-polyfill: 8.0.2
-    dev: false
-
   /@netlify/serverless-functions-api@1.12.0:
     resolution: {integrity: sha512-LJt2gHzLQMgJLsLG9Chbu2Pxxi7Yzbj3Xcd9QlThvUlD7kf4nAr3lzzRJMZqo77rVNmfQX11W1uvGMSlduiKeA==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -1583,6 +1575,14 @@ packages:
       '@netlify/node-cookies': 0.1.0
       urlpattern-polyfill: 8.0.2
     dev: true
+
+  /@netlify/serverless-functions-api@1.12.3:
+    resolution: {integrity: sha512-g1AZ78pCvMnalZtbnViVLGfG5ufjKyKoi3plLSUtZqh0wVuMR7ZGegeZHhOoY4wRfkkETVvWfhgfcpLMbGM5Lg==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    dependencies:
+      '@netlify/node-cookies': 0.1.0
+      urlpattern-polyfill: 8.0.2
+    dev: false
 
   /@netlify/zip-it-and-ship-it@9.26.2(supports-color@9.4.0):
     resolution: {integrity: sha512-tsQbSfgOTEfZmSnUbCJiHDVyYDRN1gQQEWjAmJ90YI60ZloT4j7B4HlBt0gshU9pPCiDxoHhQMCk5pHg7//CSw==}
