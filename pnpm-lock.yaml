@@ -99,7 +99,7 @@ devDependencies:
     version: 1.0.9(prettier@3.1.1)(remark-cli@12.0.0)(remark@15.0.1)
   '@newlevelup/syncpack-config':
     specifier: 1.2.0
-    version: 1.2.0(syncpack@12.0.0)
+    version: 1.2.0(syncpack@12.0.1)
   '@radix-ui/react-dialog':
     specifier: 1.0.5
     version: 1.0.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
@@ -167,8 +167,8 @@ devDependencies:
     specifier: 36.0.0
     version: 36.0.0(stylelint@15.11.0)
   syncpack:
-    specifier: 12.0.0
-    version: 12.0.0(fast-check@3.13.2)(typescript@5.3.3)
+    specifier: 12.0.1
+    version: 12.0.1(typescript@5.3.3)
   tailwind-merge:
     specifier: 2.1.0
     version: 2.1.0
@@ -679,22 +679,14 @@ packages:
       node-source-walk: 6.0.2
     dev: true
 
-  /@effect/match@0.40.0(effect@2.0.0-next.62):
-    resolution: {integrity: sha512-1v2UpVxbUybx6zmN0R1uraRkCju15xLmHquoNQxPFGrQABq2dRI0nSsVM+/yibggUnQ9QAEx2MxQ6xdrQR+8hg==}
-    peerDependencies:
-      effect: 2.0.0-next.47
-    dependencies:
-      effect: 2.0.0-next.62
-    dev: true
-
-  /@effect/schema@0.56.0(effect@2.0.0-next.62)(fast-check@3.13.2):
+  /@effect/schema@0.56.0(effect@2.0.0-next.62)(fast-check@3.15.0):
     resolution: {integrity: sha512-qVR6T9+Lbv2cAhtIAysYvHpRm8iJuMjhp++q0ZMl3ACyQM4v9mvzEg1hQxF0GpAAHS7MTagVDDXN6WCNPEK4oA==}
     peerDependencies:
       effect: 2.0.0-next.62
       fast-check: ^3.13.2
     dependencies:
       effect: 2.0.0-next.62
-      fast-check: 3.13.2
+      fast-check: 3.15.0
     dev: true
 
   /@emnapi/runtime@0.44.0:
@@ -2117,12 +2109,12 @@ packages:
       - supports-color
     dev: true
 
-  /@newlevelup/syncpack-config@1.2.0(syncpack@12.0.0):
+  /@newlevelup/syncpack-config@1.2.0(syncpack@12.0.1):
     resolution: {integrity: sha512-deUoJl40k8B638lSb22cQIM8e8Am/ErWXFmpcgu5LQYxG1qmlG1bGsSEH86UZyehAtDRxRN+yci/etukYG39Zg==}
     peerDependencies:
       syncpack: 8.4.11
     dependencies:
-      syncpack: 12.0.0(fast-check@3.13.2)(typescript@5.3.3)
+      syncpack: 12.0.1(typescript@5.3.3)
     dev: true
 
   /@next/env@14.0.4:
@@ -6977,8 +6969,8 @@ packages:
       - supports-color
     dev: true
 
-  /fast-check@3.13.2:
-    resolution: {integrity: sha512-ouTiFyeMoqmNg253xqy4NSacr5sHxH6pZpLOaHgaAdgZxFWdtsfxExwolpveoAE9CJdV+WYjqErNGef6SqA5Mg==}
+  /fast-check@3.15.0:
+    resolution: {integrity: sha512-iBz6c+EXL6+nI931x/sbZs1JYTZtLG6Cko0ouS8LRTikhDR7+wZk4TYzdRavlnByBs2G6+nuuJ7NYL9QplNt8Q==}
     engines: {node: '>=8.0.0'}
     dependencies:
       pure-rand: 6.0.4
@@ -13786,18 +13778,18 @@ packages:
       picocolors: 1.0.0
     dev: true
 
-  /syncpack@12.0.0(fast-check@3.13.2)(typescript@5.3.3):
-    resolution: {integrity: sha512-ca8bxHOhj2D6bT5n/np25Q5vhRfDlyzQ3IgIe7IBLNFkihPsEu+Xkc5jqLkIWMfYLZ3dzHCUtU2GeWir7ZESJg==}
+  /syncpack@12.0.1(typescript@5.3.3):
+    resolution: {integrity: sha512-APhPKAy4RihL7p0Lr1Yt5MumVzGBL1+acpwfillnkE7gNIvRCRT3AzukSwUsIqVqbI7SxHy321d2QvN/Qa6UQw==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      '@effect/match': 0.40.0(effect@2.0.0-next.62)
-      '@effect/schema': 0.56.0(effect@2.0.0-next.62)(fast-check@3.13.2)
+      '@effect/schema': 0.56.0(effect@2.0.0-next.62)(fast-check@3.15.0)
       chalk: 4.1.2
       commander: 11.1.0
       cosmiconfig: 9.0.0(typescript@5.3.3)
       effect: 2.0.0-next.62
       enquirer: 2.4.1
+      fast-check: 3.15.0
       globby: 11.1.0
       minimatch: 9.0.3
       npm-package-arg: 11.0.1
@@ -13808,7 +13800,6 @@ packages:
       tightrope: 0.1.0
       ts-toolbelt: 9.6.0
     transitivePeerDependencies:
-      - fast-check
       - typescript
     dev: true
 
