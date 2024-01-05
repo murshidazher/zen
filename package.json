@@ -20,7 +20,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@hookform/resolvers": "3.3.3",
+    "@hookform/resolvers": "3.3.4",
     "@netlify/emails": "1.1.0",
     "@netlify/functions": "2.4.1",
     "@radix-ui/react-avatar": "1.0.4",
