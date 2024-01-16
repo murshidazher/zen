@@ -37,7 +37,7 @@ export const Content = () => {
                 digital transformation needs.
               </p>
               <p>
-                My primary focus at :iVedha predominantly revolves around&nbsp;
+                My primary focus at iVedha predominantly revolves around&nbsp;
                 <em>Site Reliability</em>, with a major emphasis on enhancing
                 logging and monitoring, automating application onboarding,
                 streamlining incident remediation through automation,
