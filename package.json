@@ -55,7 +55,7 @@
     "@newlevelup/syncpack-config": "1.2.0",
     "@radix-ui/react-dialog": "1.0.5",
     "@tailwindcss/typography": "0.5.10",
-    "@types/node": "20.10.6",
+    "@types/node": "20.11.4",
     "@types/react": "18.2.45",
     "@types/react-dom": "18.2.18",
     "@typescript-eslint/parser": "6.10.0",
