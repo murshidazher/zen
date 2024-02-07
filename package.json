@@ -67,7 +67,7 @@
     "eslint-plugin-tailwindcss": "3.13.0",
     "netlify-cli": "17.15.7",
     "next-secure-headers": "2.2.0",
-    "npm-run-all2": "5.0.0",
+    "npm-run-all2": "5.0.2",
     "postcss": "8.4.32",
     "prettier": "3.2.5",
     "remark": "15.0.1",
