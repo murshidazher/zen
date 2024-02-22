@@ -64,7 +64,7 @@
     "eslint-config-next": "14.1.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-react": "7.33.2",
-    "eslint-plugin-tailwindcss": "3.13.0",
+    "eslint-plugin-tailwindcss": "3.14.3",
     "netlify-cli": "17.17.0",
     "next-secure-headers": "2.2.0",
     "npm-run-all2": "6.1.2",
