@@ -65,7 +65,7 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-react": "7.33.2",
     "eslint-plugin-tailwindcss": "3.13.0",
-    "netlify-cli": "17.16.2",
+    "netlify-cli": "17.17.0",
     "next-secure-headers": "2.2.0",
     "npm-run-all2": "6.1.2",
     "postcss": "8.4.35",
