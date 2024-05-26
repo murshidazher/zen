@@ -54,7 +54,7 @@
     "@newlevelup/remark-config": "1.0.9",
     "@newlevelup/syncpack-config": "1.2.0",
     "@radix-ui/react-dialog": "1.0.5",
-    "@tailwindcss/typography": "0.5.10",
+    "@tailwindcss/typography": "0.5.13",
     "@types/node": "20.11.20",
     "@types/react": "18.2.45",
     "@types/react-dom": "18.2.18",
