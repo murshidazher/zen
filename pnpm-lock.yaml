@@ -54,8 +54,8 @@ dependencies:
     specifier: 0.2.1
     version: 0.2.1(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)
   powerglitch:
-    specifier: 2.3.2
-    version: 2.3.2
+    specifier: 2.3.3
+    version: 2.3.3
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -10373,8 +10373,8 @@ packages:
       source-map-js: 1.2.0
     dev: true
 
-  /powerglitch@2.3.2:
-    resolution: {integrity: sha512-nRKMttDRu0aOeu5/rUm0CFvwuaE3b7Klujjn0AIgoLUim0E2+4YpXZ76+2t9cJERQuFZ+7D36ywG7GLtRUSyMQ==}
+  /powerglitch@2.3.3:
+    resolution: {integrity: sha512-S4XmfeZl0cnD70iZ6cxfU9O3QBWjn09gmHReJW0nQWLcfZQB8a3B9CxmuYZCyvDCXD4o75d9y/qiC+WZtN1IyA==}
     dev: false
 
   /prebuild-install@7.1.1:
