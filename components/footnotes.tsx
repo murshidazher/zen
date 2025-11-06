@@ -12,7 +12,7 @@ export const Footnotes = () => (
         Mitigating Toggle Debt&quot;.
       </li>
       <li id="fn-3">
-        I dropped out of University due to financial reasons.
+        I dropped out of Stony Brook University due to financial reasons.
       </li>
     </ol>
   </Section>
