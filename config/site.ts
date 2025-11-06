@@ -25,7 +25,7 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/murshidazher",
     behance: "https://www.behance.net/murshidazher",
     medium: "https://medium.com/@imurshid",
-    resume: "https://read.cv/murshidazher",
+    resume: "https://res.cloudinary.com/murshidazher/image/upload/v1762462221/murshid-azher-cv-nov-25.pdf",
   },
   keywords:
     "Murshid Azher, Portfolio, Sri Lankan Developer, Contact, Automation, Typography, Software Engineer, Developer, Product Design, UX Design, UI Design, Front-end, Web Development, Visual Identity, Back-end, Software, TypeScript Developer, Technical Leadership",

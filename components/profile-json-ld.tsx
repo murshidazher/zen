@@ -23,7 +23,7 @@ export const profileJsonLd = toJsonLd<Person>({
     "https://www.instagram.com/murshidazher",
     "https://www.behance.net/murshidazher",
     "https://medium.com/@imurshid",
-    "https://read.cv/murshidazher",
+    "https://res.cloudinary.com/murshidazher/image/upload/v1762462221/murshid-azher-cv-nov-25.pdf",
   ],
   image: getCldImageUrl({
     transformations:
