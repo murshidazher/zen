@@ -1,5 +1,5 @@
 import { createSecureHeaders } from 'next-secure-headers';
-import redirects from './redirects.json' assert { type: 'json' };
+import redirects from './redirects.json' with { type: 'json' };
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
