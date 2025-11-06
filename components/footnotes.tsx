@@ -11,6 +11,9 @@ export const Footnotes = () => (
         I authored my thesis titled &quot;An Automated and Modular Approach for
         Mitigating Toggle Debt&quot;.
       </li>
+      <li id="fn-3">
+        I dropped out of University due to financial reasons.
+      </li>
     </ol>
   </Section>
 );
