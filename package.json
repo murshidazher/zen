@@ -16,7 +16,7 @@
     "lint:fix:css": "npx stylelint '**/*.css' --fix",
     "lint:fix:prettier": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
     "preview": "next build && next start",
-    "start": "NODE_ENV=production next start",
+    "start": "next start",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
