@@ -85,7 +85,7 @@ export const Content = () => {
                 <em>Software Engineering</em> at Buckinghamshire New University
                 and a Bachelor of Science in&nbsp;
                 <em>Computer Science</em> at the State University of New York,
-                Stony Brook.
+                Stony Brook <Footnote index={3} />.
               </p>
               <p>
                 For more on education & certification,&nbsp;
