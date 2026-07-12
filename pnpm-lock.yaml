@@ -54,8 +54,8 @@ dependencies:
     specifier: 0.2.1
     version: 0.2.1(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)
   powerglitch:
-    specifier: 2.3.3
-    version: 2.3.3
+    specifier: 2.5.0
+    version: 2.5.0
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -164,8 +164,8 @@ devDependencies:
     specifier: 15.11.0
     version: 15.11.0(typescript@5.3.3)
   stylelint-config-standard:
-    specifier: 36.0.0
-    version: 36.0.0(stylelint@15.11.0)
+    specifier: 36.0.1
+    version: 36.0.1(stylelint@15.11.0)
   syncpack:
     specifier: 12.3.3
     version: 12.3.3(typescript@5.3.3)
@@ -6659,6 +6659,7 @@ packages:
   /git-raw-commits@2.0.11:
     resolution: {integrity: sha512-VnctFhw+xfj8Va1xtfEqCUD2XDrbAPSJx+hSrE5K7fGdjZruW7XV+QOrN7LF/RJyvspRiD2I0asWsxFp0ya26A==}
     engines: {node: '>=10'}
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
     dependencies:
       dargs: 7.0.0
@@ -10383,8 +10384,8 @@ packages:
       source-map-js: 1.2.0
     dev: true
 
-  /powerglitch@2.3.3:
-    resolution: {integrity: sha512-S4XmfeZl0cnD70iZ6cxfU9O3QBWjn09gmHReJW0nQWLcfZQB8a3B9CxmuYZCyvDCXD4o75d9y/qiC+WZtN1IyA==}
+  /powerglitch@2.5.0:
+    resolution: {integrity: sha512-JByDXadAGOT1Vnm8LvANfEfSFDYAUxSDSRXD7wWxy04bD93yf1V+/cYc+fs4kQzZSa0s4ebVQ93xUvPcM3WCng==}
     dev: false
 
   /prebuild-install@7.1.1:
@@ -12589,23 +12590,23 @@ packages:
       react: 18.2.0
     dev: false
 
-  /stylelint-config-recommended@14.0.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-jSkx290CglS8StmrLp2TxAppIajzIBZKYm3IxT89Kg6fGlxbPiTiyH9PS5YUuVAFwaJLl1ikiXX0QWjI0jmgZQ==}
-    engines: {node: '>=18.12.0'}
-    peerDependencies:
-      stylelint: ^16.0.0
-    dependencies:
-      stylelint: 15.11.0(typescript@5.3.3)
-    dev: true
-
-  /stylelint-config-standard@36.0.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-3Kjyq4d62bYFp/Aq8PMKDwlgUyPU4nacXsjDLWJdNPRUgpuxALu1KnlAHIj36cdtxViVhXexZij65yM0uNIHug==}
+  /stylelint-config-recommended@14.0.1(stylelint@15.11.0):
+    resolution: {integrity: sha512-bLvc1WOz/14aPImu/cufKAZYfXs/A/owZfSMZ4N+16WGXLoX5lOir53M6odBxvhgmgdxCVnNySJmZKx73T93cg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^16.1.0
     dependencies:
       stylelint: 15.11.0(typescript@5.3.3)
-      stylelint-config-recommended: 14.0.0(stylelint@15.11.0)
+    dev: true
+
+  /stylelint-config-standard@36.0.1(stylelint@15.11.0):
+    resolution: {integrity: sha512-8aX8mTzJ6cuO8mmD5yon61CWuIM4UD8Q5aBcWKGSf6kg+EC3uhB+iOywpTK4ca6ZL7B49en8yanOFtUW0qNzyw==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.1.0
+    dependencies:
+      stylelint: 15.11.0(typescript@5.3.3)
+      stylelint-config-recommended: 14.0.1(stylelint@15.11.0)
     dev: true
 
   /stylelint@15.11.0(typescript@5.3.3):
