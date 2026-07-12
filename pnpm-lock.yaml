@@ -54,8 +54,8 @@ dependencies:
     specifier: 0.2.1
     version: 0.2.1(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)
   powerglitch:
-    specifier: 2.3.3
-    version: 2.3.3
+    specifier: 2.5.0
+    version: 2.5.0
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -107,8 +107,8 @@ devDependencies:
     specifier: 0.5.13
     version: 0.5.13(tailwindcss@3.4.4)
   '@types/node':
-    specifier: 20.11.20
-    version: 20.11.20
+    specifier: 20.19.43
+    version: 20.19.43
   '@types/react':
     specifier: 18.2.45
     version: 18.2.45
@@ -138,7 +138,7 @@ devDependencies:
     version: 3.14.3(tailwindcss@3.4.4)
   netlify-cli:
     specifier: 17.17.1
-    version: 17.17.1(@types/node@20.11.20)
+    version: 17.17.1(@types/node@20.19.43)
   next-secure-headers:
     specifier: 2.2.0
     version: 2.2.0
@@ -542,7 +542,7 @@ packages:
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1(@types/node@20.11.20)(typescript@5.3.3)
+      ts-node: 10.9.1(@types/node@20.19.43)(typescript@5.3.3)
       typescript: 5.3.3
     transitivePeerDependencies:
       - '@swc/core'
@@ -1283,7 +1283,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.5
       '@types/istanbul-reports': 3.0.3
-      '@types/node': 20.11.20
+      '@types/node': 20.19.43
       '@types/yargs': 16.0.7
       chalk: 4.1.2
     dev: true
@@ -1368,7 +1368,7 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /@netlify/build@29.36.1(@types/node@20.11.20):
+  /@netlify/build@29.36.1(@types/node@20.19.43):
     resolution: {integrity: sha512-S+zQbdw7Np4NesLK3kA1BzmNK8oijNZ13y2kknJdGLyQbz+bQxU0iMIuMyFca+6LtGPPonCFlWPz+cKe9G0/Mw==}
     engines: {node: ^14.16.0 || >=16.0.0}
     hasBin: true
@@ -1432,7 +1432,7 @@ packages:
       strip-ansi: 7.1.0
       supports-color: 9.4.0
       terminal-link: 3.0.0
-      ts-node: 10.9.1(@types/node@20.11.20)(typescript@5.3.3)
+      ts-node: 10.9.1(@types/node@20.19.43)(typescript@5.3.3)
       typescript: 5.3.3
       uuid: 9.0.0
       yargs: 17.7.2
@@ -3003,7 +3003,7 @@ packages:
   /@types/concat-stream@2.0.1:
     resolution: {integrity: sha512-v5HP9ZsRbzFq5XRo2liUZPKzwbGK5SuGVMWZjE6iJOm/JNdESk3/rkfcPe0lcal0C32PTLVlYUYqGpMGNdDsDg==}
     dependencies:
-      '@types/node': 20.11.20
+      '@types/node': 20.19.43
     dev: true
 
   /@types/debug@4.1.10:
@@ -3039,7 +3039,7 @@ packages:
   /@types/http-proxy@1.17.13:
     resolution: {integrity: sha512-GkhdWcMNiR5QSQRYnJ+/oXzu0+7JJEPC8vkWXK351BkhjraZF+1W13CUYARUvX9+NqIU2n6YHA4iwywsc/M6Sw==}
     dependencies:
-      '@types/node': 20.11.20
+      '@types/node': 20.19.43
     dev: true
 
   /@types/is-empty@1.2.2:
@@ -3092,10 +3092,10 @@ packages:
       undici-types: 5.26.5
     dev: true
 
-  /@types/node@20.11.20:
-    resolution: {integrity: sha512-7/rR21OS+fq8IyHTgtLkDK949uzsa6n8BkziAKtPVpugIkO6D+/ooXMvzXxDnZrmtXVfjb1bKQafYpb8s89LOg==}
+  /@types/node@20.19.43:
+    resolution: {integrity: sha512-6oYBAi5ikg4Pl+kGsoYtawUMBT2zZMCvPNF7pVLnHZfd1zf38DRiWn/gT01RYCdUqkv7Fhr+C9ot4/tb+2sVvA==}
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.21.0
     dev: true
 
   /@types/node@20.5.1:
@@ -3162,7 +3162,7 @@ packages:
     resolution: {integrity: sha512-Km7XAtUIduROw7QPgvcft0lIupeG8a8rdKL8RiSyKvlE7dYY31fEn41HVuQsRFDuROA8tA4K2UVL+WdfFmErBA==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.11.20
+      '@types/node': 20.19.43
     dev: true
     optional: true
 
@@ -4731,7 +4731,7 @@ packages:
     dependencies:
       '@types/node': 20.5.1
       cosmiconfig: 8.3.6(typescript@5.3.3)
-      ts-node: 10.9.1(@types/node@20.11.20)(typescript@5.3.3)
+      ts-node: 10.9.1(@types/node@20.19.43)(typescript@5.3.3)
       typescript: 5.3.3
     dev: true
 
@@ -6659,6 +6659,7 @@ packages:
   /git-raw-commits@2.0.11:
     resolution: {integrity: sha512-VnctFhw+xfj8Va1xtfEqCUD2XDrbAPSJx+hSrE5K7fGdjZruW7XV+QOrN7LF/RJyvspRiD2I0asWsxFp0ya26A==}
     engines: {node: '>=10'}
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
     dependencies:
       dargs: 7.0.0
@@ -9232,7 +9233,7 @@ packages:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
     dev: true
 
-  /netlify-cli@17.17.1(@types/node@20.11.20):
+  /netlify-cli@17.17.1(@types/node@20.19.43):
     resolution: {integrity: sha512-jn0KPVKDnLnpm8vytmUgG36AjdOKQVQ8qnWzm3lOPNtpX37W8j38PK/m5+C4ZXLLwVbwe8e4ZRNajDFBB3M1AA==}
     engines: {node: '>=18.14.0'}
     hasBin: true
@@ -9241,7 +9242,7 @@ packages:
       '@bugsnag/js': 7.20.2
       '@fastify/static': 6.10.2
       '@netlify/blobs': 6.5.0
-      '@netlify/build': 29.36.1(@types/node@20.11.20)
+      '@netlify/build': 29.36.1(@types/node@20.19.43)
       '@netlify/build-info': 7.13.0
       '@netlify/config': 20.12.1
       '@netlify/edge-bundler': 11.2.2(supports-color@9.4.0)
@@ -10306,7 +10307,7 @@ packages:
     dependencies:
       lilconfig: 2.1.0
       postcss: 8.4.39
-      ts-node: 10.9.1(@types/node@20.11.20)(typescript@5.3.3)
+      ts-node: 10.9.1(@types/node@20.19.43)(typescript@5.3.3)
       yaml: 2.3.3
     dev: true
 
@@ -10383,8 +10384,8 @@ packages:
       source-map-js: 1.2.0
     dev: true
 
-  /powerglitch@2.3.3:
-    resolution: {integrity: sha512-S4XmfeZl0cnD70iZ6cxfU9O3QBWjn09gmHReJW0nQWLcfZQB8a3B9CxmuYZCyvDCXD4o75d9y/qiC+WZtN1IyA==}
+  /powerglitch@2.5.0:
+    resolution: {integrity: sha512-JByDXadAGOT1Vnm8LvANfEfSFDYAUxSDSRXD7wWxy04bD93yf1V+/cYc+fs4kQzZSa0s4ebVQ93xUvPcM3WCng==}
     dev: false
 
   /prebuild-install@7.1.1:
@@ -13108,7 +13109,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-node@10.9.1(@types/node@20.11.20)(typescript@5.3.3):
+  /ts-node@10.9.1(@types/node@20.19.43)(typescript@5.3.3):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -13127,7 +13128,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.11.20
+      '@types/node': 20.19.43
       acorn: 8.11.2
       acorn-walk: 8.3.0
       arg: 4.1.3
@@ -13324,6 +13325,10 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
+  /undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+    dev: true
+
   /unenv@1.7.4:
     resolution: {integrity: sha512-fjYsXYi30It0YCQYqLOcT6fHfMXsBr2hw9XC7ycf8rTG7Xxpe3ZssiqUnD0khrjiZEmkBXWLwm42yCSCH46fMw==}
     dependencies:
@@ -13390,7 +13395,7 @@ packages:
       '@types/concat-stream': 2.0.1
       '@types/debug': 4.1.10
       '@types/is-empty': 1.2.2
-      '@types/node': 20.11.20
+      '@types/node': 20.19.43
       '@types/unist': 3.0.1
       '@ungap/structured-clone': 1.2.0
       concat-stream: 2.0.0
