@@ -54,8 +54,8 @@ dependencies:
     specifier: 0.2.1
     version: 0.2.1(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)
   powerglitch:
-    specifier: 2.3.3
-    version: 2.3.3
+    specifier: 2.5.0
+    version: 2.5.0
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -128,8 +128,8 @@ devDependencies:
     specifier: 14.2.4
     version: 14.2.4(eslint@8.57.0)(typescript@5.3.3)
   eslint-config-prettier:
-    specifier: 9.1.0
-    version: 9.1.0(eslint@8.57.0)
+    specifier: 9.1.2
+    version: 9.1.2(eslint@8.57.0)
   eslint-plugin-react:
     specifier: 7.33.2
     version: 7.33.2(eslint@8.57.0)
@@ -5590,8 +5590,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-config-prettier@9.1.0(eslint@8.57.0):
-    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
+  /eslint-config-prettier@9.1.2(eslint@8.57.0):
+    resolution: {integrity: sha512-iI1f+D2ViGn+uvv5HuHVUamg8ll4tN+JRHGc6IJi4TP9Kl976C57fzPXgseXNs8v0iA8aSJpHsTWjDb9QJamGQ==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -6659,6 +6659,7 @@ packages:
   /git-raw-commits@2.0.11:
     resolution: {integrity: sha512-VnctFhw+xfj8Va1xtfEqCUD2XDrbAPSJx+hSrE5K7fGdjZruW7XV+QOrN7LF/RJyvspRiD2I0asWsxFp0ya26A==}
     engines: {node: '>=10'}
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
     dependencies:
       dargs: 7.0.0
@@ -10383,8 +10384,8 @@ packages:
       source-map-js: 1.2.0
     dev: true
 
-  /powerglitch@2.3.3:
-    resolution: {integrity: sha512-S4XmfeZl0cnD70iZ6cxfU9O3QBWjn09gmHReJW0nQWLcfZQB8a3B9CxmuYZCyvDCXD4o75d9y/qiC+WZtN1IyA==}
+  /powerglitch@2.5.0:
+    resolution: {integrity: sha512-JByDXadAGOT1Vnm8LvANfEfSFDYAUxSDSRXD7wWxy04bD93yf1V+/cYc+fs4kQzZSa0s4ebVQ93xUvPcM3WCng==}
     dev: false
 
   /prebuild-install@7.1.1:
