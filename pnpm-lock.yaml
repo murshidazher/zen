@@ -54,8 +54,8 @@ dependencies:
     specifier: 0.2.1
     version: 0.2.1(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)
   powerglitch:
-    specifier: 2.3.3
-    version: 2.3.3
+    specifier: 2.5.0
+    version: 2.5.0
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -104,8 +104,8 @@ devDependencies:
     specifier: 1.0.5
     version: 1.0.5(@types/react-dom@18.2.18)(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)
   '@tailwindcss/typography':
-    specifier: 0.5.13
-    version: 0.5.13(tailwindcss@3.4.4)
+    specifier: 0.5.20
+    version: 0.5.20(tailwindcss@3.4.4)
   '@types/node':
     specifier: 20.11.20
     version: 20.11.20
@@ -2959,14 +2959,11 @@ packages:
       defer-to-connect: 2.0.1
     dev: true
 
-  /@tailwindcss/typography@0.5.13(tailwindcss@3.4.4):
-    resolution: {integrity: sha512-ADGcJ8dX21dVVHIwTRgzrcunY6YY9uSlAHHGVKvkA+vLc5qLwEszvKts40lx7z0qc4clpjclwLeK5rVCV2P/uw==}
+  /@tailwindcss/typography@0.5.20(tailwindcss@3.4.4):
+    resolution: {integrity: sha512-hwbzQuNUfcPvbegQFatVPl/MY/tcM9KLl963hQ5laJKPh81TEZ1+dNG9PirGvcaDBkp+BCshExAyKVPW91dozw==}
     peerDependencies:
-      tailwindcss: '>=3.0.0 || insiders'
+      tailwindcss: '>=3.0.0 || >=4.0.0 || insiders'
     dependencies:
-      lodash.castarray: 4.4.0
-      lodash.isplainobject: 4.0.6
-      lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
       tailwindcss: 3.4.4(ts-node@10.9.1)
     dev: true
@@ -6659,6 +6656,7 @@ packages:
   /git-raw-commits@2.0.11:
     resolution: {integrity: sha512-VnctFhw+xfj8Va1xtfEqCUD2XDrbAPSJx+hSrE5K7fGdjZruW7XV+QOrN7LF/RJyvspRiD2I0asWsxFp0ya26A==}
     engines: {node: '>=10'}
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
     dependencies:
       dargs: 7.0.0
@@ -8115,10 +8113,6 @@ packages:
 
   /lodash.camelcase@4.3.0:
     resolution: {integrity: sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==}
-    dev: true
-
-  /lodash.castarray@4.4.0:
-    resolution: {integrity: sha512-aVx8ztPv7/2ULbArGJ2Y42bG1mEQ5mGjpdvrbJcJFU3TbYybe+QlLS4pst9zV52ymy2in1KpFPiZnAOATxD4+Q==}
     dev: true
 
   /lodash.defaults@4.2.0:
@@ -10383,8 +10377,8 @@ packages:
       source-map-js: 1.2.0
     dev: true
 
-  /powerglitch@2.3.3:
-    resolution: {integrity: sha512-S4XmfeZl0cnD70iZ6cxfU9O3QBWjn09gmHReJW0nQWLcfZQB8a3B9CxmuYZCyvDCXD4o75d9y/qiC+WZtN1IyA==}
+  /powerglitch@2.5.0:
+    resolution: {integrity: sha512-JByDXadAGOT1Vnm8LvANfEfSFDYAUxSDSRXD7wWxy04bD93yf1V+/cYc+fs4kQzZSa0s4ebVQ93xUvPcM3WCng==}
     dev: false
 
   /prebuild-install@7.1.1:
